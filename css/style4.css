@@ -1,14 +1,192 @@
+@charset "UTF-8";
+.header-top {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  padding: 20px 0px; }
+
+.header-main {
+  width: 1170px;
+  margin: 10px auto; }
+
+.ab-phone-header, .ab-phone-header2, .ab-regim-header {
+  display: inline-block;
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 16px; }
+
+.ab-regim-header {
+  background: url(../img/watch-header.png) no-repeat center left;
+  padding-left: 25px;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 8px;
+  font-family: "RobotoLight"; }
+
+.ab-phone-header {
+  background: url(../img/phone.png) no-repeat center left;
+  display: inline-block;
+  margin-right: 10px;
+  font-family: "RobotoMedium";
+  font-size: 18px; }
+
+.ab-phone-header2 {
+  background: url(../img/phone.png) no-repeat center left;
+  font-family: "RobotoMedium";
+  font-size: 18px; }
+
+.contact-box a {
+  display: inline-block;
+  padding: 2px 10px;
+  color: #fff;
+  font-family: "RobotoRegular";
+  font-size: 14px;
+  background-color: #DA4C4C;
+  width: 205px;
+  margin: 6px auto;
+  border-radius: 5px;
+  height: 27px; }
+
+/*== ╨С╨╗╨╛╨║ ╤Б ╨╗╨╛╨│╨╛╤В╨╕╨┐╨╛╨╝ ==*/
+.ab-logo-wrapper {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px; }
+
+.ab-logo {
+  background: url(../img/logo.png) no-repeat center left;
+  display: inline-block;
+  font-family: "RobotoBold";
+  font-size: 22px;
+  padding-left: 60px; }
+
+.ab-logo-box {
+  margin: 0 auto; }
+
+.ab-slogan {
+  display: inline-block;
+  font-family: "RobotoRegular";
+  font-size: 11px; }
+
+.ab-dostavka, .ab-predoplata, .ab-garantia, .ab-korzina {
+  display: inline-block;
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  padding-right: 45px;
+  margin-bottom: 15px; }
+
+.ab-dostavka {
+  background: url(../img/dostavka.png) no-repeat center left;
+  padding-left: 50px; }
+
+.ab-predoplata {
+  background: url(../img/predoplata.png) no-repeat center left;
+  padding-left: 47px; }
+
+.ab-garantia {
+  background: url(../img/garantia.png) no-repeat center left;
+  padding-left: 30px; }
+
+.ab-korzina {
+  background: url(../img/korzina.png) no-repeat center left;
+  padding-left: 35px;
+  padding-right: 0; }
+
+.ab-blok-logo {
+  padding-top: 15px; }
+
+/*== ╨У╨╗╨░╨▓╨╜╨╛╨╡ ╨╝╨╡╨╜╤О ==*/
+.ab-classmenu {
+  background-color: #F1C22B; }
+
+.ab-classmenu ul li {
+  display: inline-block; }
+
+.ab-classmenu ul {
+  color: red; }
+  .ab-classmenu ul li {
+    position: relative; }
+    .ab-classmenu ul li a {
+      color: black;
+      font-size: 16px;
+      font-family: "RobotoRegular";
+      padding: 15px 28px;
+      display: inline-block; }
+  .ab-classmenu ul li:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 30px;
+    background: url(../img/razdelitel-menu.png) no-repeat top center;
+    top: 10px;
+    left: 5px; }
+
+.domik {
+  padding-left: 45px;
+  padding-right: 9px; }
+
+/*== ╨Ю╤Б╨╜╨╛╨▓╨╜╨╛╨╣ ╨║╨╛╨╜╤В╨╡╨╜╤В - ╨▓╨╡╤А╤Е╨╜╨╕╨╣ ╨▒╨╗╨╛╨║ ╤Б ╨║╨░╤А╤В╨╕╨╜╨║╨░╨╝╨╕==*/
+.ab-tovar-item {
+  display: inline-block;
+  padding: 12px 31px;
+  text-align: center; }
+
+.ab-box-zagolovok {
+  display: block;
+  font-family: "RobotoRegular";
+  text-align: center; }
+
+.ab-box-price {
+  display: block;
+  font-family: "RobotoRegular";
+  color: red;
+  text-align: center; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .domik {
+    display: none; }
+
+  .ab-classmenu ul li {
+    display: block;
+    text-align: center; }
+
+  li:before {
+    display: none; } }
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .domik {
+    display: none; }
+
+  .ab-classmenu ul li {
+    display: block;
+    text-align: center; }
+
+  .ab-classmenu ul li a {
+    padding: 15px 10px; }
+
+  li:before {
+    display: none; }
+
+  .ab-tovar-item {
+    display: block;
+    margin: 0 auto;
+    text-align: center; } }
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .contact-box {
+    text-align: right; }
+
+  .header-top {
+    padding: 7px; } }
 /* Large Devices, Wide Screens */
 /***************/
 

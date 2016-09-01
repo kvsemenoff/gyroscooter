@@ -21,9 +21,84 @@
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-
-	<?php require_once('includes/header-top.php'); ?>
+   
+    <?php require_once('includes/header-top.php');?>
 	
+	             
+<!-- Верхний блок основного контента -->
+
+
+<section class="ab-content-body">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="ab-tovar-item">
+					<div class="ab-img-box">
+						<img src="img/detskie.png" alt="">
+					</div>
+					<span class="ab-box-zagolovok">ДЕТСКИЕ</span>
+					<span class="ab-box-price">От 16990 р.</span>
+				</div>
+					
+
+				<div class="ab-tovar-item">
+					<div class="ab-img-box"> 
+						<img src="img/standartnie.png" alt="">
+					</div> 
+					<span class="ab-box-zagolovok">СТАНДАРТНЫЕ</span>
+					<span class="ab-box-price">От 16990 р.</span>
+				</div>
+
+				<div class="ab-tovar-item">
+					<div class="ab-img-box"> 
+						<img src="img/transformers.png" alt="">
+					</div> 
+					<span class="ab-box-zagolovok">TRANSFORMERS</span>
+					<span class="ab-box-price">От 20990 р.</span>
+				</div>
+
+				<div class="ab-tovar-item">
+					<div class="ab-img-box"> 
+						<img src="img/dimond.png" alt="">
+					</div> 
+					<span class="ab-box-zagolovok">DIAMOND</span>
+					<span class="ab-box-price">От 16990 р.</span>
+				</div>
+
+				<div class="ab-tovar-item">
+					<div class="ab-img-box"> 
+						<img src="img/segway.png" alt="">
+					</div> 
+					<span class="ab-box-zagolovok">SEGWAY</span>
+					<span class="ab-box-price">От 3990 р.</span>
+				</div>
+
+				<div class="ab-tovar-item">
+					<div class="ab-img-box"> 
+						<img src="img/solowheel.png" alt="">
+					</div> 
+					<span class="ab-box-zagolovok">SOLOWHEEL</span>
+					<span class="ab-box-price">От 23950 р.</span>
+				</div>
+
+				<div class="ab-tovar-item">
+					<div class="ab-img-box"> 
+						<img src="img/drugoe.png" alt="">
+					</div> 
+					<span class="ab-box-zagolovok">ДРУГОЕ</span>
+					<span class="ab-box-price">От 500 р.</span>
+				</div>
+					
+
+
+				</div>       
+			</div>
+		</div>
+
+<?php require_once('includes/side-bar.php');?>
+
+	</div>
+</section>
 	
 </body>
 </html>

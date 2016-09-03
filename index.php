@@ -323,8 +323,8 @@
 		<section>
 			<div class="container">
 				<div class="row">
-				
-						<span class="ab-novosti">НОВОСТИ</span>
+				    <div class="col-md-12 col-sm-12 col-xs-12">
+						<h2>НОВОСТИ</h2>
 
 					<div id="owl-example" class="owl-carousel">
 
@@ -382,56 +382,72 @@
 								<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
 							</div>
 						</div>
-
-
-
 					</div>
-
-<script>
-	$(document).ready(function() {
-
-    	
-	});
-
-
-</script>
+				</div>
+					<script>
+						$(document).ready(function() { });
+					</script>
 
 					
 				</div>
 			</div>
 		</section>		
 
-		<section>
+		<section class="ab-slide-bg">
 			<div class="container">
 				<div class="row">
+				   <div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="ab-otzivi">ОТЗЫВЫ ДОВОЛЬНЫХ ПОКУПАТЕЛЕЙ</div>
-					<div id="owl-example2" class="owl-carousel">
-
-   						<div class="item"> 
-   							<!--<span class="ab-item-title-2">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</span>-->
-   							<div class="ab-img-box5">
-								<img src="img/the-girl.png" alt="">
+					 <div id="owl-example2" class="owl-carousel">
+						
+					<div class="item">
+						<div class="ab-box-text">
+							<div class="ab-item-left">
+								<div class="ab-img-box5">
+									<img src="img/the-girl.png" alt="">
+								</div>
+								<div class="ab-name-otziv">Никита</div>
+								<div class="ab-name-otziv2">Попов</div>
 							</div>
-							<div class="ab-box-text">
-								<span class="ab-name-oziv"></span>
+							
+							<div class="ab-otziv-title">
+								<div class="ab-txt-sl">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</div>
+								<div class="ab22">Гироскутер реально клевая вещь. Обучение максимум 15 минут потом я уже летала как профессионал! Очень здорово в парке кататься, весело! Быстро заряжается и хватает на полноценную прогулку.
+								</div>
 							</div>
+							<div class="clearfix"></div>
 						</div>
-						<div class="item"> 
-   							<span class="ab-item-title-2">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</span>
-   							<div class="ab-img-box5">
-								<img src="img/1.png" alt="">
+					</div>
+					
+					<div class="item"> 
+						<div class="ab-box-text">
+							<div class="ab-item-left">
+								<div class="ab-img-box5">
+									<img src="img/the-girl.png" alt="">
+								</div>
+								<div class="ab-name-otziv">Никита</div>
+								<div class="ab-name-otziv2">Попов</div>
 							</div>
-						</div>
-						<div class="item"> 
-   							<span class="ab-item-title-2">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</span>
-   							<div class="ab-img-box5">
-								<img src="img/1.png" alt="">
+							
+							<div class="ab-otziv-title">
+								<div class="ab-txt-sl">РАД ПОКУПКЕ</div>
+								<div class="ab22">Гироскутер реально клевая вещь. Обучение максимум 15 минут потом я уже летала как профессионал! Очень здорово в парке кататься, весело! Быстро заряжается и хватает на полноценную прогулку.
+								</div>
 							</div>
+							<div class="clearfix"></div>
 						</div>
 					</div>
 
+						
+
+
+						
+						</div>
+						<div class="ab-button-otziv"><span><a href="#">Оставить отзыв</a></span>
+					   </div>
+					</div>
 				</div>
-			</div>
+			</div>	
 		</section>
 
 <?php require_once('includes/footer.php');?>

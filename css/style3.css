@@ -2,7 +2,15 @@ h1 {
   font-family: "RobotoBold";
   font-size: 26px;
   text-transform: uppercase;
-  margin: 20px 0px 15px 0px; }
+  margin: 20px 0px 15px 0px;
+  text-align: center; }
+
+h5 {
+  font-family: "RobotoBold";
+  font-size: 16px;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px; }
 
 .main-img {
   width: 100%;
@@ -63,32 +71,180 @@ h1 {
   .az-breadcrumb span {
     color: #dc5858; }
 
-.az-socials li {
-  display: inline-block;
-  margin: 0 5px; }
+.az-socials {
+  text-align: center; }
+  .az-socials li {
+    display: inline-block;
+    margin: 0 3px; }
+  .az-socials li:first-child {
+    margin: 0 3px 0 0; }
+  .az-socials li:last-child {
+    margin: 0 0 0 3px; }
 
-.az-list li {
+.az-list {
+  margin: 12px auto 0 auto;
+  max-width: 360px; }
+  .az-list li {
+    font-family: "RobotoRegular";
+    font-size: 16px;
+    padding-left: 40px;
+    position: relative;
+    line-height: 45px; }
+    .az-list li span {
+      line-height: 20px; }
+  .az-list li:before {
+    position: absolute;
+    content: '';
+    top: 12px;
+    left: 0px;
+    display: block; }
+  .az-list .az-icon1:before {
+    width: 30px;
+    height: 21px;
+    background: url(../img/az-icon1.png) no-repeat top left; }
+  .az-list .az-icon2:before {
+    width: 22px;
+    height: 26px;
+    background: url(../img/az-icon2.png) no-repeat top left; }
+  .az-list .az-icon3:before {
+    width: 29px;
+    height: 21px;
+    background: url(../img/az-icon3.png) no-repeat top left; }
+
+.az-ch {
+  display: inline-block; }
+
+.az-ul-ch {
   font-family: "RobotoRegular";
   font-size: 16px;
-  padding-left: 38px;
-  position: relative; }
-.az-list li:before {
+  border-top: 1px solid #d9d9d9; }
+
+.az-left {
+  float: left; }
+
+.az-right {
+  float: right; }
+
+.az-center {
+  text-align: center; }
+
+.az-center2 {
+  text-align: center; }
+
+.az-button1 {
+  font-family: "RobotoBold";
+  text-align: center;
+  font-size: 18px;
+  color: #da4c4c;
+  height: 40px;
+  line-height: 36px;
+  border: 2px solid #da4c4c;
+  border-radius: 4px;
+  display: block; }
+
+.az-margin3 {
+  margin-top: 25px;
+  margin-bottom: 10px; }
+
+.az-buy {
+  width: 100%;
+  padding: 28px 43px;
+  background: #ffffcc; }
+
+.az-price {
+  font-family: "RobotoBold";
+  font-size: 32px;
+  color: #cc3333;
+  display: block;
+  text-align: center;
+  text-transform: uppercase; }
+
+.az-stars {
+  display: inline-block;
+  font-size: 0px; }
+  .az-stars input[type="radio"] {
+    display: none; }
+  .az-stars .az-none {
+    display: none; }
+  .az-stars label {
+    width: 22px;
+    height: 15px;
+    display: inline-block;
+    background: url(../img/gray-star.png) no-repeat top center;
+    cursor: pointer; }
+  .az-stars #a1:checked ~ label,
+  .az-stars #a2:checked ~ label,
+  .az-stars #a3:checked ~ label,
+  .az-stars #a4:checked ~ label,
+  .az-stars #a5:checked ~ label {
+    background: url(../img/yellow-star.png) no-repeat top center; }
+  .az-stars #a1:checked ~ label[for="a1"] ~ label,
+  .az-stars #a2:checked ~ label[for="a2"] ~ label,
+  .az-stars #a3:checked ~ label[for="a3"] ~ label,
+  .az-stars #a4:checked ~ label[for="a4"] ~ label,
+  .az-stars #a5:checked ~ label[for="a5"] ~ label {
+    background: url(../img/gray-star.png) no-repeat top center; }
+
+.az-stars:hover label {
+  background: url(../img/yellow-star.png) no-repeat top center !important; }
+.az-stars:hover label[for="a1"]:hover ~ label,
+.az-stars:hover label[for="a2"]:hover ~ label,
+.az-stars:hover label[for="a3"]:hover ~ label,
+.az-stars:hover label[for="a4"]:hover ~ label,
+.az-stars:hover label[for="a5"]:hover ~ label {
+  background: url(../img/gray-star.png) no-repeat top center !important; }
+
+.az-check input {
+  display: none; }
+.az-check label {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: "RobotoRegular";
+  font-size: 14px;
+  position: relative;
+  cursor: pointer; }
+.az-check label:before {
   position: absolute;
   content: '';
-  top: 0px;
-  left: 0px; }
-.az-list .az-icon1:before {
-  width: 30px;
-  height: 21px;
-  background: url(../img/az-icon1.png) no-repeat top left; }
-.az-list .az-icon2:before {
-  width: 22px;
-  height: 26px;
-  background: url(../img/az-icon2.png) no-repeat top left; }
-.az-list .az-icon3:before {
-  width: 29px;
-  height: 21px;
-  background: url(../img/az-icon3.png) no-repeat top left; }
+  top: 50%;
+  left: -20px;
+  width: 17px;
+  height: 17px;
+  transform: translate(0, -50%);
+  background: url(../img/checkbox.png) no-repeat top left; }
+.az-check input:checked ~ label:before {
+  background: url(../img/checkedbox.png) no-repeat top left; }
+
+.az-sel-item {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  font-size: 0px;
+  position: relative; }
+  .az-sel-item select {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: "RobotoLight";
+    font-size: 15px;
+    position: relative;
+    z-index: 4;
+    background: transparent;
+    padding: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none; }
+  .az-sel-item select::-ms-expand {
+    display: none; }
+  .az-sel-item .az-select-arrow {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    height: 100%;
+    background: #fff url(../img/select-arrow.png) no-repeat center center;
+    display: inline-block; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -101,6 +257,21 @@ h1 {
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .az-center {
+    text-align: left; }
+
+  .az-list {
+    margin: 12px 0 0 0; }
+
+  .az-socials {
+    text-align: left; }
+
+  .az-margin5 {
+    margin-left: 20px; }
+
+  h1 {
+    text-align: left; } }
 /* Large Devices, Wide Screens */
 /***************/
 

@@ -390,27 +390,7 @@
 <script>
 	$(document).ready(function() {
 
-    	$("#owl-example").owlCarousel({
-
-	    	loop:true, //Зацикливаем слайдер
-			margin:10, //Отступ от картинки если выводим больше 1
-			nav:true, //Навигация включена
-			autoplay:false, //Автозапуск слайдера
-			smartSpeed:1000, //Время движения слайда
-			autoplayTimeout:2000, //Время смены слайда
-			navText:['<span class="prev arrs"></span>', '<span class="next arrs"></span>'],
-			responsive:{ //Адаптация в зависимости от разрешения экрана
-				0:{
-					items:1
-				},
-				600:{
-					items:2
-				},
-				1000:{
-					items:3
-				}
-			}
-		});
+    	
 	});
 
 
@@ -421,6 +401,39 @@
 			</div>
 		</section>		
 
-</body>
-</html>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="ab-otzivi">ОТЗЫВЫ ДОВОЛЬНЫХ ПОКУПАТЕЛЕЙ</div>
+					<div id="owl-example2" class="owl-carousel">
+
+   						<div class="item"> 
+   							<!--<span class="ab-item-title-2">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</span>-->
+   							<div class="ab-img-box5">
+								<img src="img/the-girl.png" alt="">
+							</div>
+							<div class="ab-box-text">
+								<span class="ab-name-oziv"></span>
+							</div>
+						</div>
+						<div class="item"> 
+   							<span class="ab-item-title-2">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</span>
+   							<div class="ab-img-box5">
+								<img src="img/1.png" alt="">
+							</div>
+						</div>
+						<div class="item"> 
+   							<span class="ab-item-title-2">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</span>
+   							<div class="ab-img-box5">
+								<img src="img/1.png" alt="">
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+<?php require_once('includes/footer.php');?>
+
 

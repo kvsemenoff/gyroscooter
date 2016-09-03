@@ -90,6 +90,50 @@ $(document).ready(function(){
         return false;
     });
 
+
+$("#owl-example").owlCarousel({
+
+            loop:true, //Зацикливаем слайдер
+            margin:10, //Отступ от картинки если выводим больше 1
+            nav:true, //Навигация включена
+            autoplay:false, //Автозапуск слайдера
+            smartSpeed:1000, //Время движения слайда
+            autoplayTimeout:2000, //Время смены слайда
+            navText:['<span class="prev arrs"></span>', '<span class="next arrs"></span>'],
+            responsive:{ //Адаптация в зависимости от разрешения экрана
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:3
+                }
+            }
+        });
+
+$("#owl-example2").owlCarousel({
+
+            loop:true, //Зацикливаем слайдер
+            margin:10, //Отступ от картинки если выводим больше 1
+            nav:true, //Навигация включена
+            autoplay:false, //Автозапуск слайдера
+            smartSpeed:1000, //Время движения слайда
+            autoplayTimeout:2000, //Время смены слайда
+            navText:['<span class="prev arrs"></span>', '<span class="next arrs"></span>'],
+            responsive:{ //Адаптация в зависимости от разрешения экрана
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:2
+                }
+            }
+        });
     // $('.owl-carousel').owlCarousel({
     //     loop:true,
     //     margin:10,

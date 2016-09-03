@@ -90,39 +90,39 @@ $(document).ready(function(){
         return false;
     });
 
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            480:{
-                items:2
-            },
-            767:{
-                items:3
-            },
-            850:{
-                items:4
-            },
-            967:{
-                items:5
-            },
-            1067:{
-                items:6
-            },
-            1200:{
-                items:4
-            },
-            1400:{
-                items:5
-            },
-            1600:{
-                items:6
-            }
-        }
-    });
+    // $('.owl-carousel').owlCarousel({
+    //     loop:true,
+    //     margin:10,
+    //     nav:true,
+    //     responsive:{
+    //         0:{
+    //             items:1
+    //         },
+    //         480:{
+    //             items:2
+    //         },
+    //         767:{
+    //             items:3
+    //         },
+    //         850:{
+    //             items:4
+    //         },
+    //         967:{
+    //             items:5
+    //         },
+    //         1067:{
+    //             items:6
+    //         },
+    //         1200:{
+    //             items:4
+    //         },
+    //         1400:{
+    //             items:5
+    //         },
+    //         1600:{
+    //             items:6
+    //         }
+    //     }
+    // });
 
 });

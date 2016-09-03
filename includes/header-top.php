@@ -42,6 +42,22 @@
 	<div class="container">
 		<div class="row ab-classmenu">
 			<div class="col-md-12 col-sm-12 col-xs-12">
+
+				<!--<nav class="clearfix">
+		<ul class="clearfix">
+			<li><a href="#">О магазине</a></li>
+			<li><a href="#">Гарантия</a></li>
+			<li><a href="#">Доставка и оплата</a></li>
+			<li><a href="#">Новости</a></li>
+			<li><a href="#">Вопросы и ответы</a></li>
+			<li><a href="#">Отзывы</a></li>
+			<li><a href="#">Контакты</a></li>	
+		</ul>
+		<a href="#" id="pull">Меню</a>
+	</nav>-->
+
+
+
 				<ul>
 					<span><img class="domik" src="img/domik.png" alt=""></span>
 					<li><a href="#">О магазине</a></li>

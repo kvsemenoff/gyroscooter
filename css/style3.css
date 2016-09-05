@@ -377,7 +377,7 @@ h5 {
 
 /*form*/
 .az-form {
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   border: 1px solid #cccccc; }
   .az-form .az-form-input, .az-form .az-file2 {
     width: 100%;
@@ -415,7 +415,8 @@ h5 {
   height: 40px;
   line-height: 40px;
   border: none;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 20px; }
 
 .az-file2 {
   position: relative;
@@ -441,9 +442,14 @@ h5 {
   display: inline-block; }
 
 /*form*/
+.socials {
+  padding: 30px 0px; }
+
 .socials-text {
   font-family: "RobotoLight";
-  font-size: 16px; }
+  font-size: 16px;
+  vertical-align: top;
+  display: block; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
@@ -475,6 +481,10 @@ h5 {
     height: 40px;
     line-height: 40px; } }
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .socials-text {
+    display: inline-block;
+    margin-left: 20px; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   .az-asdf {

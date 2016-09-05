@@ -305,6 +305,40 @@
 		</div>
 	</div>
 </section>
+<section>
+	<div class="container">
+		<form action="" class="az-form">
+			<div class="row">
+				<div class="col-md-4">
+					<input type="text" placeholder="Ваше имя">
+				</div>
+				<div class="col-md-4">
+					<input type="email" placeholder="Ваш email">
+				</div>
+				<div class="col-md-4">
+					<input type="file" id="f1" class="az-none az-file" accept="image/*"><label for="f1" class="az-file2">Прикрепить фото</label>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+				</div>
+				<div class="col-md-4">
+					<input type="submit" value="Оставить отзыв">
+				</div>
+			</div>
+		</form>
+	</div>
+</section>
+
+<script>
+	$(document).ready(function(){
+		$('.az-file').change(function(){
+			$(this).next('label').text($(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
+		});
+	});
+</script>
+
 
 </body>
 </html>

@@ -215,6 +215,10 @@ h5{
     text-transform: uppercase;
 }
 
+.az-none{
+    display: none;
+}
+
 .az-stars{
     display: inline-block;
     font-size: 0px;
@@ -442,7 +446,7 @@ h5{
 .az22{
     width: 100%;
     padding-left: 15px;
-    height: 155px;
+    //height: 155px;
     text-align: left;
     font-family: "RobotoRegular";
     color: black;
@@ -458,6 +462,53 @@ h5{
 .azmarginn{
     margin-top: 0px !important;
 }
+
+/*form*/
+.az-form{
+    padding: 20px;
+    input, label{
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        padding-left: 10px;
+        border-radius: 2px;
+        font-family: "RobotoLight";
+        font-size: 15px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        outline: none;
+        display: inline-block;
+    }
+    textarea{
+        border: 1px solid #ccc;
+        font-family: "RobotoLight";
+        font-size: 15px;
+        margin-bottom: 20px;
+        resize: none;
+        width: 100%;
+        outline: none;
+        padding: 10px;
+    }
+    input[type="file"]{
+        display: none;
+    }
+}
+.az-file2{
+    position: relative;
+    cursor: pointer;
+}
+.az-file2:before{
+    position: absolute;
+    content: '';
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 35px;
+    border-left: 1px solid #ccc;
+    background: url(../img/input-file.png) no-repeat center center;
+}
+/*form*/
+
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */

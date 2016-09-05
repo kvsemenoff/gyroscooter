@@ -383,8 +383,8 @@ background-size: cover;
 /*== Блок с картинкой на всю ширину и 5 элементами ==*/
 
 .ab-content-body-full-width {
-background: rgba(0, 0, 0, 0) url("../img/full-img.png") no-repeat scroll center top;
-background-size: cover;
+    background: rgba(0, 0, 0, 0) url("../img/full-img.png") no-repeat center top;
+    background-size: cover;
     //height: 390px;
     //margin-bottom: 10px;
    // margin-top: 10px;
@@ -394,87 +394,140 @@ background-size: cover;
 }
 
 .ab-ramki{
-width: 190px;
-height: 133px;
-background: url(../img/ramka-p.png) no-repeat top center;
-display: inline-block;
-float: left;
-margin-left: 37px;
-margin-top: 140px;
-position: relative;
+    width: 100%;
+    height: 152px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: "RobotoRegular";
+    text-align: center;
+    font-size: 16px;
+    color:black;
+    display: block;
+
+    //margin: 145px 19px 19px;
+
+   // padding: 10px 10px;
+    position: relative;
+    border-radius: 5px;
+    outline: 1px solid red;
 }
 
-/* Картинки для рамок 5 штук */
+.ab-box1 {
+width: 100%;
+//float: left;
+outline: 2px solid red;
+
+}
+
+
+/*.ab-box1 {
+width: 20%;
+float: left;
+box-sizing: border-box; 
+}
+*/
+.ab-ramki-img{
+    display: block; 
+    position: absolute;
+    margin-left: 50%;
+
+    transform: translate (-50%,0);
+    width: 103px;
+    height: 103px;
+    
+    outline: 1px solid red;
+    img{
+        display: block;
+    }
+
+}
+
+
 .ab-ramki-img-1{
-display: inline-block; 
-position: absolute;
-width: 190px;
-height: 133px;
-background: url(../img/gruzovik.png) no-repeat top center;
-margin-top: -50px; 
+    display: block; 
+    position: absolute;
+    left: 50%;
+    transform: translate (-50%,0);
+    width: 190px;
+    height: 133px;
+    background: url(../img/gruzovik.png) no-repeat top center; 
+    outline: 1px solid red;
 }
 
 .ab-ramki-img-2{
-display: inline-block; 
-position: absolute;
-width: 190px;
-height: 133px;
-background: url(../img/medal.png) no-repeat top center;
-margin-top: -50px; 
+  
+    position: absolute;
+    background: url(../img/medal.png) no-repeat top center;
+    margin-left: 50%;
+    transform: translate (-50%,0);
+    width: 190px;
+    height: 133px; 
 }
 
 .ab-ramki-img-3{
-display: inline-block; 
+
 position: absolute;
 width: 190px;
 height: 133px;
 background: url(../img/punkty.png) no-repeat top center;
-margin-top: -50px; 
+margin-left: 50%;
+transform: translate (-50%,0);
+margin-top: -102px; 
 }
 
 .ab-ramki-img-4{
-display: inline-block; 
+
 position: absolute;
+margin-left: 50%;
+transform: translate (-50%,0);
+margin-top: -102px; 
 width: 190px;
 height: 133px;
 background: url(../img/people.png) no-repeat top center;
-margin-top:-50px; 
+
 }
 
 .ab-ramki-img-5 {
-display: inline-block; 
+
 position: absolute;
+margin-left: 50%;
+transform: translate (-50%,0);
+margin-top: -102px; 
 width: 190px;
 height: 133px;
 background: url(../img/vozvrat.png) no-repeat top center;
-margin-top:-50px; 
 }
 
 
-/* Записи в рамках общие */
+/* Записи в рамках общие 
+.ab-ramki-word {
+background-color: rgba(255, 255, 255, 0.8);
+font-family: "RobotoRegular";
+text-align: center;
+font-size: 16px;
+color:black;
+display: block;
+padding: 60px 10px;
+width: 190px;
+}*/
+
+/* Отдельный класс для последней записи 
 .ab-ramki-word {
 font-family: "RobotoRegular";
 text-align: center;
 font-size: 16px;
 color:black;
 display: inline-block;
-padding: 60px 10px;
-}
-
-/* Отдельный класс для последней записи */
-.ab-ramki-word-special {
-font-family: "RobotoRegular";
-text-align: center;
-font-size: 16px;
-color:black;
-display: inline-block;
 padding: 59px 24px;
-}
+background-color: rgba(255, 255, 255, 0.8);
+width: 100%;
+}*/
 
 /*== Блок Новости со слайдом ==*/
 
-.owl-carousel{
-margin-top: -60px;
+
+.owl-carousel {
+ margin-top: 20px;
+ margin-bottom: 20px;
 }
 
 .ab-news-bg {
@@ -496,12 +549,13 @@ margin-top: -60px;
 }
 
 
-h2  {
+h2 {
   color: black;
   display: block;
   font-family: "RobotoBold";
-  font-size: 36px;
-  margin: 25px 42px 65px;
+  font-size: 34px;
+  margin: 18px auto;
+  text-align: center;
 }
 
 .ab-item-date {
@@ -516,7 +570,7 @@ padding-left: 20px;
 .ab-item-title {
 font-family: "RobotoRegular";
 text-align: left;
-font-size: 22px;
+font-size: 18px;
 color:black;
 display: inline-block;
 //padding-left: 20px;
@@ -529,13 +583,15 @@ padding-left: 10px;
 
 /* Кнопка на слайдере */
 .ab-slide-button {
-    background-color: #DA4C4C;
+    background-color: #da4c4c;
+    color: #fff;
     display: block;
-     margin: -17px 21px 0 105px;
-    //margin: -25px 31px 24px 190px;
-    text-align: center;
-    color:#fff;
+    //margin: 21px auto;
+    //text-align: center;
+    margin-left: calc(100% - 156px);
     transform: skew(-24deg);
+    width: 140px;
+
 }
 
 /* Текст со ссылкой на слайдере */
@@ -543,14 +599,12 @@ padding-left: 10px;
   color: white;
     display: block;
     font-family: "RobotoBold";
-    font-size: 15px;
     height: 45px;
-    margin: 0 auto;
-    padding-right: 54px;
+    padding-left: 10px;
     padding-top: 10px;
-    text-align: center;
+    text-align: left;
     transform: skew(23deg);
-    width: 180px;
+    width: 155px;
 }
 
 .owl-prev {
@@ -564,7 +618,7 @@ margin: -134px -23px;
 width: 12px;
 height: 20px;
 background: url(../img/slide-right.png) no-repeat;
-margin: 113px 1181px;
+margin: 113px 1149px;
 }
 
 
@@ -601,13 +655,13 @@ margin: 113px 1181px;
 }
 
 .ab-otzivi {
-font-family: "RobotoBold";
-text-align: center;
-font-size: 20px;
-color:black;
-display: inline-block;
-margin-top:-6px;
-margin-bottom: 70px;
+    color: black;
+    display: block;
+    font-family: "RobotoBold";
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-top: 6px;
+    text-align: center;
 }
 
 .ab-box-text {
@@ -671,12 +725,15 @@ color: #DA4C4C;
 }
 
 .ab22 {
+  display: block;
 color: black;
 font-family: "RobotoRegular";
 text-align: center;
 font-size: 16px;
 margin-bottom: 10px;
 padding: 10px;
+text-align: center;
+//width: 250px;
 }
 
 
@@ -711,17 +768,19 @@ display: block;
   span{
   font-family: "Robotobold";
   text-align: center;
-  font-size: 36px;
+  font-size: 25px;
   display: block;
-  margin: 0 auto 10px; 
+  margin: -20px auto 9px; 
   }
 }
 
 .ab-about-us-txt {
   span{
   font-family: "MyriadPro-Regular";
-  text-align: left;
-  font-size: 16px; 
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px; 
   }
 }
 
@@ -739,7 +798,10 @@ display: block;
     display: block;
     font-family: "Robotobold";
     font-size: 20px;
-    margin: 25px 11px;
+    //margin: 23px 11px;
+    margin-bottom: 24px;
+    margin-top: 15px;
+    text-align: center;
 
 
   }
@@ -772,12 +834,12 @@ display: block;
 
 .ab-txt-phone {
   span {
-    display: inline-block;
+    color: white;
+    display: block;
     font-family: "MyriadPro-Regular";
     font-size: 16px;
     padding: 15px;
     text-align: center;
-    color: white;
 
 
      a {
@@ -885,21 +947,53 @@ display: block;
 	.ramka-wrapper{
     text-align: center;
   }
-
+ h2 {
+  
+  padding-top: 10px;
+  margin-top: 77px;
 
 }
 
+}
+
+
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  h2 {
+  padding-top: 100px;
+  margin: 17px auto;
+
+}
 	
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+   
+   .ab-slide-button {
+    margin-left: calc(100% - 156px);
+}
+
+
 
   h2 {
-    margin: 127px 485px 21px;
+  padding-top: 40px;
+  margin:123px auto 15px;
+
+}
+
+  .ab22 {
+text-align: left;
+width: 325px;
+}
+
+  .ab-about-us-txt {
+  span{
+  text-align: left;
   }
+}
+
 
 .ab-strelki-1 {
  width: 66px;
@@ -965,16 +1059,7 @@ display: block;
 .ab-otziv-title{
   float: left;
 }
-.ab22{
-  //width: 357px;
-  width: 344px;
-  padding-left: 15px;
-  height: 155px;
-  text-align: left;
-  font-family: "RobotoRegular";
-  color: black;
-  font-size: 16px;
-}
+
 
 .ab-img-box5 {
     //float: left;
@@ -1018,15 +1103,15 @@ margin-bottom: 10px;
 
 /*----------------------------------------------------*/
 
+/* Слайдер новости */
 
+.box1{
+  display: flex;
+  flex-flow: row wrap; 
+}
 
   .ab-item-title {
 padding-left: 20px;
-}
-
-  .ab-slide-button {
-   margin: -25px 31px 24px 190px;
-   
 }
 
   .owl-carousel{
@@ -1034,13 +1119,13 @@ margin-top: 0;
 }
 
 .ab-content-body-full-width {
-background: url(../img/full-img.png) no-repeat top center;
-height: 390px;
-padding: 0px 5px;
-margin-top: 10px;
-margin-bottom: 10px;
-position: relative;
-z-index: 2;
+    background: url(../img/full-img.png) no-repeat top center;
+    //height: 390px;
+    padding: 0px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
 }
 
   .ab-button-left {

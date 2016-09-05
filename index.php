@@ -285,39 +285,78 @@
 		</div> 
 		<!-- </div> -->
 </section>
-			<section class="ab-content-body-full-width">
-				<div class="container">
-					<div class="row">
-
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-1"></div>
-							<span class="ab-ramki-word">Доставка в день заказа по Москве
-							 и Санкт-Петербургу</span>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section class="ab-content-body-full-width">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img">
+							<img src="img/gruzovik.png" alt="">
 						</div>
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-2"></div>
-							<span class="ab-ramki-word">Гарантия на продукцию 12 месяцев</span>
-						</div>
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-3"></div>
-							<span class="ab-ramki-word">Пункты 			самовывоза в Москве и Санкт-Петербурге</span>
-						</div>
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-4"></div>
-							<span class="ab-ramki-word">Более 3000 		довольных клиентов</span>
-						</div>
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-5"></div>
-							<span class="ab-ramki-word-special">Гарантия возврата</span>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-
-
+						<span>Доставка в день заказа по Москве
+						 и Санкт-Петербургу</span>
 					</div>
 				</div>
-			</section>
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img">
+							<img src="img/gruzovik.png" alt="">
+						</div>
+						<span>Доставка в день заказа по Москве
+						 и Санкт-Петербургу</span>
+					</div>
+				</div>
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img">
+							<img src="img/gruzovik.png" alt="">
+						</div>
+						<span>Доставка в день заказа по Москве
+						 и Санкт-Петербургу</span>
+					</div>
+				</div>		
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img-2"></div>
+						<span>Гарантия на продукцию 12 месяцев</span>
+					</div>
+				</div>
 
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img-3"></div>
+						<span>Пункты самовывоза в Москве и Санкт-Петербурге</span>
+					</div>
+				</div>
+
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img-4"></div>
+						<span>Более 3000 		довольных клиентов</span>
+					</div>
+				</div>
+
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img-5"></div>
+						<span>Гарантия возврата</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
 			<!-- Блок Новости c Каруселью -->
 
 		<section class="ab-news-bg">

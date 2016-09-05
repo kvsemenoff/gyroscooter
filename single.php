@@ -100,13 +100,15 @@
 <section class="az-single">
     <div class="container">	 
 		<div class="row">
-			<div class="col-md-4 col-sm-12 col-xs-12">
-			<div class="az-breadcrumb">
-				<a href="#">Главная</a> >>
-				<a href="#">Хит продаж</a> >>
-				<span>героскутер модель 1</span>
+			<div class="col-md-12">
+				<div class="az-breadcrumb az-margin5">
+					<a href="#">Главная</a> >>
+					<a href="#">Хит продаж</a> >>
+					<span>гироскутер модель 1</span>
+				</div>
+				<h1 class="az-margin5">гироскутер модель 1</h1>
 			</div>
-			<h1>героскутер модель 1</h1>
+			<div class="col-md-4 col-sm-12 col-xs-12">
 				<div class="az-imgs">
 					<div class="main-img">
 						<img src="img/az-main-img.png" alt="">
@@ -128,20 +130,77 @@
 				</div>
 			</div>
 			<div class="col-md-5 col-sm-12 col-xs-12">
-			<ul class="az-socials">
-				<li><a href="#"><img src="img/facebook.png" alt=""></a></li>
-				<li><a href="#"><img src="img/vk.png" alt=""></a></li>
-				<li><a href="#"><img src="img/instagram.png" alt=""></a></li>
-				<li><a href="#"><img src="img/twitter.png" alt=""></a></li>
-			</ul>
-			<ul class="az-list">
-				<li class="az-icon1">Доставка по Москве и Санкт-Петербургу</li>
-				<li class="az-icon2">Курьером 1000 р</li>
-				<li class="az-icon3">Самовывоз бесплатно</li>
-			</ul>
+				<ul class="az-socials">
+					<li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+					<li><a href="#"><img src="img/vk.png" alt=""></a></li>
+					<li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+					<li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+				</ul>
+				<ul class="az-list">
+					<li class="az-icon1"><span>Доставка по Москве и Санкт-Петербургу</span></li>
+					<li class="az-icon2"><span>Курьером 1000 р</span></li>
+					<li class="az-icon3"><span>Самовывоз бесплатно</span></li>
+				</ul>
+				<div class="az-center">
+					<div class="az-ch">
+						<h5>основные характеристики</h5>
+						<ul class="az-ul-ch">
+							<li>
+								<div class="az-left">Max. cкорость:</div>
+								<div class="az-right">15 км/ч.</div>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<div class="az-left">Запас хода:</div>
+								<div class="az-right">20-25 км.</div>
+								<div class="clearfix"></div>
+							</li>
+							<li>
+								<div class="az-left">Max. нагрузка:</div>
+								<div class="az-right">120 кг.</div>
+								<div class="clearfix"></div>
+							</li>
+						</ul>
+						<a href="#" class="az-button1 az-margin3">Все характеристики</a>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
-			3
+				<div class="az-buy">
+					<span class="az-price">35 100 Р</span>
+					<div class="az-center2">
+						<div class="az-stars">
+							<input type="radio" name="radio1" id="a0">
+							<input type="radio" name="radio1" id="a1">
+							<input type="radio" name="radio1" id="a2">
+							<input type="radio" name="radio1" id="a3">
+							<input type="radio" name="radio1" id="a4">
+							<input type="radio" name="radio1" id="a5">
+							<label for="a0" class="az-none"></label>
+							<label for="a1"></label>
+							<label for="a2"></label>
+							<label for="a3"></label>
+							<label for="a4"></label>
+							<label for="a5"></label>
+						</div>
+					</div>
+					<div class="az-check">
+						<input type="checkbox" id="a6"><label for="a6">Товар в наличии</label>
+					</div>
+					<div class="az-select">
+						<label for="">Цвет</label>
+						
+							<div class="az-sel-item">
+								<select name="sel" id="a7">
+									<option value="Синий">Синий</option>
+									<option value="Зеленый">Зеленый</option>
+									<option value="Красный">Красный</option>
+								</select>
+								<label for="a7" class="az-select-arrow"></label>
+							</div>
+						
+					</div>
+				</div>
 			</div>
 		</div>
 	</div> 

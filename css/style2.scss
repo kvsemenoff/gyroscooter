@@ -1,4 +1,115 @@
+    .clear{
+        clear: both;
+    }
+    .footer{
+        background-color: #1a1a1a;
+        padding-bottom: 30px;
+    }
+    .boxcell1, .boxcell2, .boxcell3, .imgcell{
+        display: block;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .boxcell1{
+        padding-left: 0px;
 
+    }
+    .boxcell2{
+        padding-left: 0px;
+    }
+    .boxcell3{
+        padding-left: 0px;
+    }
+    .imgcell{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .tablebox{
+        display: block;
+        padding: 30px 0px;
+        text-align: center;
+        border-bottom: 1px solid #f1c22b;
+    }
+    .footspan1, .footspan2, .footspan3, .footspan4, .footspan5, .footspan6{
+        display: block;
+        font-family: "RobotoRegular";
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footspan1{
+        background: url(../img/fotbk1.png) calc(50% - 110px) center no-repeat;
+    }
+    .footspan2{
+        background: url(../img/fotbk2.png) calc(50% - 110px) center no-repeat;
+    }
+    .footspan3{
+        background: url(../img/fotbk3.png) calc(50% - 110px) center no-repeat;
+    }
+    .footspan4{
+        background: url(../img/fotbk4.png) calc(50% - 110px) center no-repeat;
+    }
+    .footspan5{
+        background: url(../img/fotbk3.png) calc(50% - 110px) center no-repeat;
+    }
+    .footspan1:before{
+        position: absolute;
+        content: "";
+        background: none;
+        width: 12px;
+        height: 18px;
+        left: -24px;
+        top: 3px;
+    }
+    .footspan2:before{
+        position: absolute;
+        content: "";
+        background: none;
+        width: 15px;
+        height: 15px;
+        left: -24px;
+        top: 4px;
+    }
+    .footspan3:before{
+        position: absolute;
+        content: "";
+        background: none;
+        width: 14px;
+        height: 16px;
+        left: -23px;
+        top: 4px;
+    }
+    .footspan5:before{
+        position: absolute;
+        content: "";
+        background: none;
+        width: 14px;
+        height: 16px;
+        left: -22px;
+        top: 4px;
+    }
+    .footspan4:before{
+        position: absolute;
+        content: "";
+        background: none;
+        width: 18px;
+        height: 13px;
+        left: -24px;
+        top: 6px;
+    }
+    .footspan3, .footspan4, .footspan5{
+        font-size: 18px;
+    }
+    .footspan4{
+        text-decoration: underline;
+    }
+    .imgbox1{
+        display: inline-block;
+    }
+    .boxcell4{
+        text-align: center;
+        margin-top: 18px;
+    }
 
 /*==========  Desktop First Method  ==========*/
 
@@ -47,7 +158,91 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-   
+    .footspan1, .footspan2, .footspan3, .footspan4, .footspan5, .footspan6{
+        position: relative;
+        background: none;
+    }
+    .footspan1:before{
+        position: absolute;
+        content: "";
+        background: url(../img/fotbk1.png);
+        width: 12px;
+        height: 18px;
+        left: -24px;
+        top: 3px;
+    }
+    .footspan2:before{
+        position: absolute;
+        content: "";
+        background: url(../img/fotbk2.png);
+        width: 15px;
+        height: 15px;
+        left: -24px;
+        top: 4px;
+    }
+    .footspan3:before{
+        position: absolute;
+        content: "";
+        background: url(../img/fotbk3.png);
+        width: 14px;
+        height: 16px;
+        left: -23px;
+        top: 4px;
+    }
+     .footspan5:before{
+        position: absolute;
+        content: "";
+        background: url(../img/fotbk3.png);
+        width: 14px;
+        height: 16px;
+        left: -22px;
+        top: 4px;
+    }
+    .footspan4:before{
+        position: absolute;
+        content: "";
+        background: url(../img/fotbk4.png);
+        width: 18px;
+        height: 13px;
+        left: -24px;
+        top: 6px;
+    }
+    .tablebox{
+        display: table;
+        width: 100%;
+        text-align: left;
+    }
+    .boxcell1, .boxcell2, .boxcell3, .imgcell{
+        display: table-cell;
+        float: left  !important;
+        margin-bottom: 0px !important;
+    }
+    .boxcell1{
+        padding-left: 28px !important;
+    }
+    .boxcell2{
+        padding-left: 81px !important;
+    }
+    .boxcell3{
+        padding-left: 61px !important;
+    }
+    .imgcell{
+        padding-left: 86px !important;
+        padding-top: 10px !important;
+    }
+    .footspan1{
+        margin-bottom: 7px;
+    }
+    .footspan3{
+        margin-bottom: 7px;
+    }
+    .imgbox1{
+        margin-right: 15px;
+    }
+    .boxcell4{
+        text-align: center;
+        margin-top: 18px;
+    }
 }
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
@@ -57,7 +252,7 @@
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //padding: 0px;
     //margin: 0px;
-    //outline: 15px solid blue;
+    // outline: 1px solid red;
     //outline: none !important;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {

@@ -225,7 +225,7 @@
 					<div class="tabs_cont tabs_cont__margin">
 						<div id="tab_c1">
 							<div class="tab-item">
-								<div class="ab-box-text az-border">
+								<div class="az-border">
 									<div class="ab-item-left">
 										<div class="ab-img-box5">
 											<img src="img/the-girl.png" alt="">
@@ -256,7 +256,7 @@
 									</div>
 									<div class="clearfix"></div>
 								</div>
-								<div class="ab-box-text az-border">
+								<div class="az-border">
 									<div class="ab-item-left">
 										<div class="ab-img-box5">
 											<img src="img/the-girl.png" alt="">
@@ -310,10 +310,10 @@
 		<form action="" class="az-form">
 			<div class="row">
 				<div class="col-md-4">
-					<input type="text" placeholder="Ваше имя">
+					<input type="text" placeholder="Ваше имя" class="az-form-input">
 				</div>
 				<div class="col-md-4">
-					<input type="email" placeholder="Ваш email">
+					<input type="email" placeholder="Ваш email" class="az-form-input">
 				</div>
 				<div class="col-md-4">
 					<input type="file" id="f1" class="az-none az-file" accept="image/*"><label for="f1" class="az-file2">Прикрепить фото</label>
@@ -321,10 +321,27 @@
 			</div>
 			<div class="row">
 				<div class="col-md-8">
-					<textarea name="" id="" cols="30" rows="10"></textarea>
+					<textarea name="" id="" cols="30" rows="10" class="az-form-textarea"></textarea>
 				</div>
 				<div class="col-md-4">
-					<input type="submit" value="Оставить отзыв">
+					<label for="" class="az-labell">Рейтинг:</label>
+					<div class="az-inline">
+						<div class="az-stars">
+							<input type="radio" name="radio3" id="a40" class="radio0">
+							<input type="radio" name="radio3" id="a41" class="radio1">
+							<input type="radio" name="radio3" id="a42" class="radio2">
+							<input type="radio" name="radio3" id="a43" class="radio3">
+							<input type="radio" name="radio3" id="a44" class="radio4">
+							<input type="radio" name="radio3" id="a45" class="radio5">
+							<label for="a40" class="az-none"></label>
+							<label for="a41" class="label1"></label>
+							<label for="a42" class="label2"></label>
+							<label for="a43" class="label3"></label>
+							<label for="a44" class="label4"></label>
+							<label for="a45" class="label5"></label>
+						</div>
+					</div>
+					<input type="submit" value="Оставить отзыв" class="az-button3">
 				</div>
 			</div>
 		</form>
@@ -338,6 +355,19 @@
 		});
 	});
 </script>
+
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<a href="#"><img src="img/socials.png" alt=""></a><span class="socials-text">Расскажите друзьям им может быть интересен товар</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 
 
 </body>

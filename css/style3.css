@@ -377,8 +377,9 @@ h5 {
 
 /*form*/
 .az-form {
-  padding: 20px; }
-  .az-form input, .az-form label {
+  padding: 20px;
+  border: 1px solid #cccccc; }
+  .az-form .az-form-input, .az-form .az-file2 {
     width: 100%;
     height: 35px;
     line-height: 35px;
@@ -390,7 +391,7 @@ h5 {
     border: 1px solid #ccc;
     outline: none;
     display: inline-block; }
-  .az-form textarea {
+  .az-form .az-form-textarea {
     border: 1px solid #ccc;
     font-family: "RobotoLight";
     font-size: 15px;
@@ -398,9 +399,23 @@ h5 {
     resize: none;
     width: 100%;
     outline: none;
-    padding: 10px; }
+    padding: 10px;
+    height: 75px; }
   .az-form input[type="file"] {
     display: none; }
+
+.az-button3 {
+  border-radius: 2px;
+  text-align: center;
+  font-family: "RobotoRegular";
+  font-size: 16px;
+  display: block;
+  background: #ffcc33;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  width: 100%; }
 
 .az-file2 {
   position: relative;
@@ -416,7 +431,20 @@ h5 {
   border-left: 1px solid #ccc;
   background: url(../img/input-file.png) no-repeat center center; }
 
+.az-inline {
+  display: inline-block; }
+
+.az-labell {
+  font-family: "RobotoLight";
+  font-size: 15px;
+  margin-bottom: 15px;
+  display: inline-block; }
+
 /*form*/
+.socials-text {
+  font-family: "RobotoLight";
+  font-size: 16px; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */

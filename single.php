@@ -161,14 +161,14 @@
 								<div class="clearfix"></div>
 							</li>
 						</ul>
-						<a href="#" class="az-button1 az-margin3">Все характеристики</a>
+						<a href="#" class="az-button1 az-col-100 az-margin3">Все характеристики</a>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12">
 				<div class="az-buy">
 					<span class="az-price">35 100 Р</span>
-					<div class="az-center2">
+					<div class="az-center2 az-margin10">
 						<div class="az-stars">
 							<input type="radio" name="radio1" id="a0">
 							<input type="radio" name="radio1" id="a1">
@@ -184,29 +184,63 @@
 							<label for="a5"></label>
 						</div>
 					</div>
-					<div class="az-check">
+					<div class="az-center2 az-check az-margin12">
 						<input type="checkbox" id="a6"><label for="a6">Товар в наличии</label>
 					</div>
-					<div class="az-select">
+					<div class="az-select az-margin16">
 						<label for="">Цвет</label>
-						
-							<div class="az-sel-item">
-								<select name="sel" id="a7">
-									<option value="Синий">Синий</option>
-									<option value="Зеленый">Зеленый</option>
-									<option value="Красный">Красный</option>
-								</select>
-								<label for="a7" class="az-select-arrow"></label>
-							</div>
-						
+						<div class="az-sel-item az-margin7">
+							<select name="sel" id="a7">
+								<option value="Синий">Синий</option>
+								<option value="Зеленый">Зеленый</option>
+								<option value="Красный">Красный</option>
+							</select>
+							<label for="a7" class="az-select-arrow"></label>
+						</div>
+					</div>
+					<div class="az-row az-margin39">
+						<a href="#" class="az-button2 az-col-100 az-col-md-49 az-col-xs-100 az-marginb10">В корзину</a>
+						<a href="#" class="az-button1 az-col-100 az-col-md-49 az-col-xs-100">Купить в 1 клик</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div> 
-
 </section>
-			
+<section>
+	<div class="container">	 
+		<div class="row">
+			<div class="col-md-12">
+				<div class="tabs tabs__margin">
+					<input id="tab_1" type="radio" name="tab" checked="checked"/>
+					<input id="tab_2" type="radio" name="tab"/>
+					<input id="tab_3" type="radio" name="tab"/>
+					<input id="tab_4" type="radio" name="tab"/>
+					
+					<label for="tab_1" id="tab_l1"><span class="az-tab-header">Описание</span></label>
+					<label for="tab_2" id="tab_l2"><span class="az-tab-header">Характеристики</span></label>
+					<label for="tab_3" id="tab_l3"><span class="az-tab-header">Комплектация</span></label>
+					<label for="tab_4" id="tab_l4"><span class="az-tab-header">Отзывы</span></label>
+
+					<div class="tabs_cont tabs_cont__margin">
+						<div id="tab_c1">
+							<div class="tab-item">1</div>
+						</div>
+						<div id="tab_c2">
+							<div class="tab-item">2</div>
+						</div>
+						<div id="tab_c3">
+							<div class="tab-item">3</div>
+						</div>
+						<div id="tab_c4">
+							<div class="tab-item">4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 </body>
 </html>

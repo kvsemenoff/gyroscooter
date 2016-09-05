@@ -383,12 +383,14 @@ background-size: cover;
 /*== Блок с картинкой на всю ширину и 5 элементами ==*/
 
 .ab-content-body-full-width {
-//background: url(../img/full-img.png) no-repeat top center;
-//height: 390px;
-background-color: #898C91;
-padding: 15px 10px;
-margin-top: 10px;
-margin-bottom: 10px;
+background: rgba(0, 0, 0, 0) url("../img/full-img.png") no-repeat scroll center top;
+background-size: cover;
+    //height: 390px;
+    //margin-bottom: 10px;
+   // margin-top: 10px;
+    padding: 170px 5px;
+    position: relative;
+    z-index: 2;
 }
 
 .ab-ramki{
@@ -475,14 +477,31 @@ padding: 59px 24px;
 margin-top: -60px;
 }
 
+.ab-news-bg {
+   background: rgba(0, 0, 0, 0) url("../img/news-bg.png") no-repeat scroll center top / cover ;
+    margin-top: -170px;
+    //margin-top: -44px;
+    position: relative;
+    z-index: 1;
+}
+
+#owl-example {
+  .item {
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  } 
+}
+
 
 h2  {
-font-family: "RobotoBold";
-margin: 0 auto;
-font-size: 36px;
-color:black;
-display: block;
-margin: 10px 487px 28px;
+  color: black;
+  display: block;
+  font-family: "RobotoBold";
+  font-size: 36px;
+  margin: 25px 42px 65px;
 }
 
 .ab-item-date {
@@ -521,17 +540,17 @@ padding-left: 10px;
 
 /* Текст со ссылкой на слайдере */
 .ab-slide-button-txt a {
- display: block;
- color: white;
- width: 180px;
- height: 45px; 
- margin: 0 auto;
- font-family: "RobotoBold";
- font-size: 16px;
- text-align: center;
- transform: skew(23deg);
- padding-right: 19px;
- padding-top: 10px;
+  color: white;
+    display: block;
+    font-family: "RobotoBold";
+    font-size: 15px;
+    height: 45px;
+    margin: 0 auto;
+    padding-right: 54px;
+    padding-top: 10px;
+    text-align: center;
+    transform: skew(23deg);
+    width: 180px;
 }
 
 .owl-prev {
@@ -574,16 +593,28 @@ margin: 113px 1181px;
   }
 }
 
+
+
+.ab-slide-bg {
+  background: rgba(0, 0, 0, 0) url("../img/full-slide-bg.png") no-repeat scroll center top;
+  background-size: cover;    
+}
+
 .ab-otzivi {
 font-family: "RobotoBold";
 text-align: center;
 font-size: 20px;
 color:black;
 display: inline-block;
-margin-top:20px;
+margin-top:-6px;
 margin-bottom: 70px;
 }
 
+.ab-box-text {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 .ab-img-box5{
   margin: 0 auto;
@@ -592,7 +623,9 @@ margin-bottom: 70px;
   border-radius: 10em;
   overflow: hidden;
   position: relative;
+
    img {
+
     display: block;
     position: absolute;
     top: 50%;
@@ -613,7 +646,7 @@ color: #949494;
 font-family: "RobotoRegular";
 text-align: center;
 font-size: 16px;
-margin-top: -7px;
+margin-top: -3px;
 margin-bottom: 10px;
 }
 
@@ -630,20 +663,22 @@ margin-bottom: 10px;
 //background-color: #D4D6D7;
 font-family: "RobotoRegular";
 text-align: center;
-font-size: 20px; 
-margin-bottom: 10px;
-margin-top: 10px;
+font-size: 18px; 
+//margin-bottom: 10px;
+//margin-top: 10px;
 padding: 10px 5px;
+color: #DA4C4C;
 }
 
-
-.ab-otziv-title {
-color: #DA4C4C;
+.ab22 {
+color: black;
 font-family: "RobotoRegular";
 text-align: center;
 font-size: 16px;
 margin-bottom: 10px;
+padding: 10px;
 }
+
 
 .ab-button-otziv {
 background-color: #F1C22B;
@@ -652,8 +687,9 @@ text-align: center;
 font-size: 16px;
 width: 240px;
 height: 40px;
-margin: 126px auto;
+margin: 122px auto 75px;
 border-radius: 5px;
+display: block;
  
  a {
   display: block;
@@ -668,6 +704,93 @@ border-radius: 5px;
   width: 100%;
   background-color: rgba(255,255,255, 0.8);
 }
+
+/*== Блок о нас ==*/
+
+.ab-about-us {
+  span{
+  font-family: "Robotobold";
+  text-align: center;
+  font-size: 36px;
+  display: block;
+  margin: 0 auto 10px; 
+  }
+}
+
+.ab-about-us-txt {
+  span{
+  font-family: "MyriadPro-Regular";
+  text-align: left;
+  font-size: 16px; 
+  }
+}
+
+/*== Как купить гироскутер ==*/
+
+.ab-last-full-bg {
+  width: 100%;
+  background: url(../img/lust-full-bg.png) no-repeat top center;
+  //height: 378px;
+  background-size: cover;
+}
+
+.ab-kak-kupit {
+  span {
+    display: block;
+    font-family: "Robotobold";
+    font-size: 20px;
+    margin: 25px 11px;
+
+
+  }
+}
+
+.ab-img-phone {
+  width: 61px;
+  height: 61px;
+  background: url(../img/phone-bg.png) no-repeat;
+  display: block; 
+  margin: 0 auto; 
+}
+
+.ab-img-gruz {
+  width: 80px;
+  height: 60px;
+  background: url(../img/gruz.png) no-repeat;
+  display: block; 
+  margin: 0 auto; 
+}
+
+.ab-img-scooter {
+  width: 50px;
+  height: 66px;
+  background: url(../img/scooter.png) no-repeat;
+  display: block; 
+  margin: -3px auto; 
+}
+
+
+.ab-txt-phone {
+  span {
+    display: inline-block;
+    font-family: "MyriadPro-Regular";
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+
+
+     a {
+      text-decoration: underline;
+      color: white;
+     }
+
+     
+  }
+}
+
+
+
 
 
 
@@ -774,7 +897,71 @@ border-radius: 5px;
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+  h2 {
+    margin: 127px 485px 21px;
+  }
+
+.ab-strelki-1 {
+ width: 66px;
+ height: 26px;
+ background: url(../img/strelka.png) no-repeat top center;
+ display: block;
+ position: absolute;
+  margin-left: 325px;
+  margin-top: -48px;
+}  
+
+.position {
+  position: relative;
+}
+
+.ab-strelki-2 {
+ width: 66px;
+ height: 26px;
+ background: url(../img/strelka.png) no-repeat top center;
+ display: block;
+ position: absolute;
+ margin-left: 349px;
+  margin-top: -49px;
+} 
+
+.position-2 {
+  position: relative;
+}
+
+
+ .ab-txt-phone {
+  span {
+    color: white;
+    padding: 17px;
+
+     a {
+      text-decoration: underline;
+      color: white;
+     }
+  }
+} 
+
+.ab-kak-kupit span {
+  color: white;
+  display: block;
+  font-family: "Robotobold";
+  font-size: 36px;
+  margin: 79px 349px;
+} 
+
+.ab-last-full-bg {
+  width: 100%;
+  background: url(../img/lust-full-bg.png) no-repeat top center;
+  height: 378px;
+}
+
+
+
+
 /*----------------------------------------------------*/
+
+
 .ab-otziv-title{
   float: left;
 }
@@ -787,8 +974,6 @@ border-radius: 5px;
   font-family: "RobotoRegular";
   color: black;
   font-size: 16px;
-
-
 }
 
 .ab-img-box5 {
@@ -823,10 +1008,10 @@ margin-bottom: 10px;
 
 .ab-otzivi {
     color: white;
-    display: inline-block;
+    display: block;
     font-family: "RobotoBold";
-    font-size: 20px;
-    margin: 50px auto 44px 389px;
+    font-size: 36px;
+    margin: 37px auto 10px;
     padding-top: 10px;
     text-align: center;
 }
@@ -851,9 +1036,11 @@ margin-top: 0;
 .ab-content-body-full-width {
 background: url(../img/full-img.png) no-repeat top center;
 height: 390px;
-padding: 15px 10px;
+padding: 0px 5px;
 margin-top: 10px;
 margin-bottom: 10px;
+position: relative;
+z-index: 2;
 }
 
   .ab-button-left {

@@ -196,32 +196,32 @@ h5 {
     display: none; }
   .az-stars .az-none {
     display: none; }
-  .az-stars label {
-    width: 21px;
+  .az-stars .label1, .az-stars .label2, .az-stars .label3, .az-stars .label4, .az-stars .label5 {
+    width: 21px !important;
     height: 15px;
     display: inline-block;
     background: url(../img/gray-star.png) no-repeat top center;
     cursor: pointer; }
-  .az-stars #a1:checked ~ label,
-  .az-stars #a2:checked ~ label,
-  .az-stars #a3:checked ~ label,
-  .az-stars #a4:checked ~ label,
-  .az-stars #a5:checked ~ label {
+  .az-stars .radio1:checked ~ label,
+  .az-stars .radio2:checked ~ label,
+  .az-stars .radio3:checked ~ label,
+  .az-stars .radio4:checked ~ label,
+  .az-stars .radio5:checked ~ label {
     background: url(../img/yellow-star.png) no-repeat top center; }
-  .az-stars #a1:checked ~ label[for="a1"] ~ label,
-  .az-stars #a2:checked ~ label[for="a2"] ~ label,
-  .az-stars #a3:checked ~ label[for="a3"] ~ label,
-  .az-stars #a4:checked ~ label[for="a4"] ~ label,
-  .az-stars #a5:checked ~ label[for="a5"] ~ label {
+  .az-stars .radio1:checked ~ .label1 ~ label,
+  .az-stars .radio2:checked ~ .label2 ~ label,
+  .az-stars .radio3:checked ~ .label3 ~ label,
+  .az-stars .radio4:checked ~ .label4 ~ label,
+  .az-stars .radio5:checked ~ .label5 ~ label {
     background: url(../img/gray-star.png) no-repeat top center; }
 
 .az-stars:hover label {
   background: url(../img/yellow-star.png) no-repeat top center !important; }
-.az-stars:hover label[for="a1"]:hover ~ label,
-.az-stars:hover label[for="a2"]:hover ~ label,
-.az-stars:hover label[for="a3"]:hover ~ label,
-.az-stars:hover label[for="a4"]:hover ~ label,
-.az-stars:hover label[for="a5"]:hover ~ label {
+.az-stars:hover .label1:hover ~ label,
+.az-stars:hover .label2:hover ~ label,
+.az-stars:hover .label3:hover ~ label,
+.az-stars:hover .label4:hover ~ label,
+.az-stars:hover .label5:hover ~ label {
   background: url(../img/gray-star.png) no-repeat top center !important; }
 
 .az-check input {
@@ -321,7 +321,6 @@ h5 {
   top: 0;
   opacity: 0;
   width: 100%;
-  padding: 15px 15px 15px 15px;
   -moz-transition: opacity .5s ease-in-out;
   -webkit-transition: opacity .5s ease-in-out;
   transition: opacity .5s ease-in-out;
@@ -336,7 +335,7 @@ h5 {
   opacity: 1; }
 
 /*tabs style*/
-.tabs label {
+.tabs .lbl {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 2px; }
@@ -357,6 +356,23 @@ h5 {
   font-size: 12px; }
 
 /*tabs style*/
+.az22 {
+  width: 100%;
+  padding-left: 15px;
+  height: 155px;
+  text-align: left;
+  font-family: "RobotoRegular";
+  color: black;
+  font-size: 16px;
+  letter-spacing: -0.01em; }
+
+.az-border {
+  border: 1px solid #cccccc;
+  padding: 15px 15px 15px 15px; }
+
+.azmarginn {
+  margin-top: 0px !important; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
@@ -389,7 +405,11 @@ h5 {
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-  .tabs label {
+  .az-asdf {
+    width: calc(100% - 136px);
+    margin-top: 25px; }
+
+  .tabs .lbl {
     width: 25%;
     display: inline-block; }
 

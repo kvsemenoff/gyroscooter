@@ -224,26 +224,26 @@ h5{
     .az-none{
         display: none;
     }
-    label{
-        width: 21px;
+    .label1, .label2, .label3, .label4, .label5{
+        width: 21px !important;
         height: 15px;
         display: inline-block;
         background: url(../img/gray-star.png) no-repeat top center;
         cursor: pointer;
         //: 0px 5px;
     }
-    #a1:checked ~ label,
-    #a2:checked ~ label,
-    #a3:checked ~ label,
-    #a4:checked ~ label,
-    #a5:checked ~ label{
+    .radio1:checked ~ label,
+    .radio2:checked ~ label,
+    .radio3:checked ~ label,
+    .radio4:checked ~ label,
+    .radio5:checked ~ label{
         background: url(../img/yellow-star.png) no-repeat top center;
     }
-    #a1:checked ~ label[for="a1"] ~ label,
-    #a2:checked ~ label[for="a2"] ~ label,
-    #a3:checked ~ label[for="a3"] ~ label,
-    #a4:checked ~ label[for="a4"] ~ label,
-    #a5:checked ~ label[for="a5"] ~ label{
+    .radio1:checked ~ .label1 ~ label,
+    .radio2:checked ~ .label2 ~ label,
+    .radio3:checked ~ .label3 ~ label,
+    .radio4:checked ~ .label4 ~ label,
+    .radio5:checked ~ .label5 ~ label{
         background: url(../img/gray-star.png) no-repeat top center;
     }
 
@@ -252,11 +252,11 @@ h5{
     label{
         background: url(../img/yellow-star.png) no-repeat top center !important;
     }
-    label[for="a1"]:hover ~ label,
-    label[for="a2"]:hover ~ label,
-    label[for="a3"]:hover ~ label,
-    label[for="a4"]:hover ~ label,
-    label[for="a5"]:hover ~ label{
+    .label1:hover ~ label,
+    .label2:hover ~ label,
+    .label3:hover ~ label,
+    .label4:hover ~ label,
+    .label5:hover ~ label{
         background: url(../img/gray-star.png) no-repeat top center !important;
     }
 }
@@ -392,7 +392,7 @@ h5{
     top: 0;
     opacity: 0;
     width: 100%;
-    padding: 15px 15px 15px 15px;
+    //padding: 15px 15px 15px 15px;
     -moz-transition: opacity .5s ease-in-out;
     -webkit-transition: opacity .5s ease-in-out;
     transition: opacity .5s ease-in-out;
@@ -411,7 +411,7 @@ h5{
 /*tabs style*/
 
 .tabs{
-    label{
+    .lbl{
         width: 100%;
         border: 1px solid #ccc;
         border-radius: 2px;
@@ -439,6 +439,25 @@ h5{
 }
 /*tabs style*/
 
+.az22{
+    width: 100%;
+    padding-left: 15px;
+    height: 155px;
+    text-align: left;
+    font-family: "RobotoRegular";
+    color: black;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+}
+
+.az-border{
+    border: 1px solid #cccccc;
+    padding: 15px 15px 15px 15px;
+}
+
+.azmarginn{
+    margin-top: 0px !important;
+}
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -508,8 +527,15 @@ h5{
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    .az-asdf{
+        width: calc(100% - 136px);
+        margin-top: 25px;
+    }
+    // .az22{
+    //     width: calc(100% - 210px);
+    // }
     .tabs{
-        label{
+        .lbl{
             width: 25%;
             //border: 1px solid #ccc;
             //border-radius: 2px;

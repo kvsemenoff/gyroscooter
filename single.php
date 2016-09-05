@@ -170,18 +170,18 @@
 					<span class="az-price">35 100 Р</span>
 					<div class="az-center2 az-margin10">
 						<div class="az-stars">
-							<input type="radio" name="radio1" id="a0">
-							<input type="radio" name="radio1" id="a1">
-							<input type="radio" name="radio1" id="a2">
-							<input type="radio" name="radio1" id="a3">
-							<input type="radio" name="radio1" id="a4">
-							<input type="radio" name="radio1" id="a5">
+							<input type="radio" name="radio1" id="a0" class="radio0">
+							<input type="radio" name="radio1" id="a1" class="radio1">
+							<input type="radio" name="radio1" id="a2" class="radio2">
+							<input type="radio" name="radio1" id="a3" class="radio3">
+							<input type="radio" name="radio1" id="a4" class="radio4">
+							<input type="radio" name="radio1" id="a5" class="radio5">
 							<label for="a0" class="az-none"></label>
-							<label for="a1"></label>
-							<label for="a2"></label>
-							<label for="a3"></label>
-							<label for="a4"></label>
-							<label for="a5"></label>
+							<label for="a1" class="label1"></label>
+							<label for="a2" class="label2"></label>
+							<label for="a3" class="label3"></label>
+							<label for="a4" class="label4"></label>
+							<label for="a5" class="label5"></label>
 						</div>
 					</div>
 					<div class="az-center2 az-check az-margin12">
@@ -217,14 +217,78 @@
 					<input id="tab_3" type="radio" name="tab"/>
 					<input id="tab_4" type="radio" name="tab"/>
 					
-					<label for="tab_1" id="tab_l1"><span class="az-tab-header">Описание</span></label>
-					<label for="tab_2" id="tab_l2"><span class="az-tab-header">Характеристики</span></label>
-					<label for="tab_3" id="tab_l3"><span class="az-tab-header">Комплектация</span></label>
-					<label for="tab_4" id="tab_l4"><span class="az-tab-header">Отзывы</span></label>
+					<label for="tab_1" id="tab_l1" class="lbl"><span class="az-tab-header">Описание</span></label>
+					<label for="tab_2" id="tab_l2" class="lbl"><span class="az-tab-header">Характеристики</span></label>
+					<label for="tab_3" id="tab_l3" class="lbl"><span class="az-tab-header">Комплектация</span></label>
+					<label for="tab_4" id="tab_l4" class="lbl"><span class="az-tab-header">Отзывы</span></label>
 
 					<div class="tabs_cont tabs_cont__margin">
 						<div id="tab_c1">
-							<div class="tab-item">1</div>
+							<div class="tab-item">
+								<div class="ab-box-text az-border">
+									<div class="ab-item-left">
+										<div class="ab-img-box5">
+											<img src="img/the-girl.png" alt="">
+										</div>
+										<div class="ab-name-otziv azmarginn">Никита</div>
+										<div class="ab-name-otziv2">Попов</div>
+										<div class="az-center2 az-margin10">
+											<div class="az-stars">
+												<input type="radio" name="radio2" id="a20" class="radio0">
+												<input type="radio" name="radio2" id="a21" class="radio1">
+												<input type="radio" name="radio2" id="a22" class="radio2">
+												<input type="radio" name="radio2" id="a23" class="radio3">
+												<input type="radio" name="radio2" id="a24" class="radio4">
+												<input type="radio" name="radio2" id="a25" class="radio5">
+												<label for="a20" class="az-none"></label>
+												<label for="a21" class="label1"></label>
+												<label for="a22" class="label2"></label>
+												<label for="a23" class="label3"></label>
+												<label for="a24" class="label4"></label>
+												<label for="a25" class="label5"></label>
+											</div>
+										</div>
+									</div>
+									
+									<div class="ab-otziv-title az-asdf">
+										<div class="az22">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила.Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила.
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="ab-box-text az-border">
+									<div class="ab-item-left">
+										<div class="ab-img-box5">
+											<img src="img/the-girl.png" alt="">
+										</div>
+										<div class="ab-name-otziv azmarginn">Никита</div>
+										<div class="ab-name-otziv2">Попов</div>
+										<div class="az-center2 az-margin10">
+											<div class="az-stars">
+												<input type="radio" name="radio3" id="a30" class="radio0">
+												<input type="radio" name="radio3" id="a31" class="radio1">
+												<input type="radio" name="radio3" id="a32" class="radio2">
+												<input type="radio" name="radio3" id="a33" class="radio3">
+												<input type="radio" name="radio3" id="a34" class="radio4">
+												<input type="radio" name="radio3" id="a35" class="radio5">
+												<label for="a30" class="az-none"></label>
+												<label for="a31" class="label1"></label>
+												<label for="a32" class="label2"></label>
+												<label for="a33" class="label3"></label>
+												<label for="a34" class="label4"></label>
+												<label for="a35" class="label5"></label>
+											</div>
+										</div>
+									</div>
+									
+									<div class="ab-otziv-title az-asdf">
+										<div class="az22">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила.Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила.
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+
 						</div>
 						<div id="tab_c2">
 							<div class="tab-item">2</div>

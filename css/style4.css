@@ -126,6 +126,10 @@
   padding-right: 9px; }
 
 /*== ╨Ю╤Б╨╜╨╛╨▓╨╜╨╛╨╣ ╨║╨╛╨╜╤В╨╡╨╜╤В - ╨▓╨╡╤А╤Е╨╜╨╕╨╣ ╨▒╨╗╨╛╨║ ╤Б ╨║╨░╤А╤В╨╕╨╜╨║╨░╨╝╨╕==*/
+.wrapper-links {
+  display: block;
+  margin-left: 20px; }
+
 .ab-tovar-item-wrapper {
   width: 100%; }
 
@@ -156,6 +160,7 @@
   font-family: "RobotoRegular";
   text-align: center;
   font-size: 16px;
+  margin: 0 auto;
   padding: 8px 50px 5px 25px;
   display: inline-block; }
 
@@ -163,8 +168,7 @@
   font-family: "RobotoBold";
   text-align: center;
   font-size: 16px;
-  padding-left: 23px;
-  display: inline-block;
+  display: block;
   margin-top: 15px; }
 
 .ab-ramka {
@@ -192,22 +196,22 @@
   padding: 8px 135px 5px 25px; }
 
 .ab-link1 {
-  background: url(../img/g1.png) no-repeat center left; }
+  background: url(../img/ico1.png) no-repeat 40px center; }
 
 .ab-link2 {
-  background: url(../img/g2.png) no-repeat center left; }
+  background: url(../img/ico2.png) no-repeat 40px center; }
 
 .ab-link3 {
-  background: url(../img/g3.png) no-repeat center left; }
+  background: url(../img/ico3.png) no-repeat 40px center; }
 
 .ab-link4 {
-  background: url(../img/g4.png) no-repeat center left; }
+  background: url(../img/ico4.png) no-repeat 40px center; }
 
 .ab-link5 {
-  background: url(../img/g5.png) no-repeat center left; }
+  background: url(../img/ico5.png) no-repeat 40px center; }
 
 .ab-link6 {
-  background: url(../img/g6.png) no-repeat center left; }
+  background: url(../img/ico6.png) no-repeat 40px center; }
 
 a {
   color: black; }
@@ -216,15 +220,15 @@ a {
   padding-top: 11px;
   font-family: "RobotoRegular";
   font-size: 16px;
-  padding-left: 40px;
   padding-top: 10px;
   display: inline-block; }
 
 .ab-links {
-  padding-top: 10px; }
+  padding-top: 10px;
+  text-align: center; }
 
 .ab-side-banner {
-  margin: 40px auto; }
+  margin: 40px auto 40px 12px; }
 
 /*== ╨С╨╗╨╛╨║ ╤Б ╤В╨╛╨▓╨░╤А╨╛╨╝ ╨┐╨╛╨┤ ╤Б╨╗╨░╨╣╨┤╨╡╤А╨╛╨╝ ==*/
 .ab-tovar-main {
@@ -490,7 +494,7 @@ width: 100%;
   width: 12px;
   height: 20px;
   background: url(../img/slide-left.png) no-repeat;
-  left: -31px;
+  left: -14px;
   top: 130px;
   position: absolute; }
 
@@ -498,7 +502,7 @@ width: 100%;
   width: 12px;
   height: 20px;
   background: url(../img/slide-right.png) no-repeat;
-  right: -31px;
+  right: -14px;
   top: 130px;
   position: absolute; }
 
@@ -572,16 +576,16 @@ h2 {
   position: absolute;
   width: 12px;
   height: 20px;
-  left: -31px;
-  top: 100px;
+  left: -14px;
+  top: 145px;
   background: url(../img/ll.png) no-repeat; }
 
 .next_arrs {
   position: absolute;
   width: 12px;
   height: 20px;
-  right: -31px;
-  top: 100px;
+  right: -14px;
+  top: 145px;
   background: url(../img/rr.png) no-repeat; }
 
  /*#owl-example2 {
@@ -795,6 +799,36 @@ h2 {
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 480px) {
+  /* ╨б╨░╨╣╨┤╨▒╨░╤А */
+  .ab-link1 {
+    background: url(../img/ico1.png) no-repeat center left; }
+
+  .ab-link2 {
+    background: url(../img/ico2.png) no-repeat center left; }
+
+  .ab-link3 {
+    background: url(../img/ico3.png) no-repeat center left; }
+
+  .ab-link4 {
+    background: url(../img/ico4.png) no-repeat center left; }
+
+  .ab-link5 {
+    background: url(../img/ico5.png) no-repeat center left; }
+
+  .ab-link6 {
+    background: url(../img/ico6.png) no-repeat center left; }
+
+  .ab-link-span {
+    padding-left: 39px; }
+
+  .ab-links {
+    text-align: left;
+    padding-top: 10px; }
+
+  .ab-side-color {
+    text-align: left;
+    padding-left: 35px; }
+
   .ramka-wrapper {
     text-align: center; }
 
@@ -803,24 +837,81 @@ h2 {
     margin-top: 77px; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
+  /* ╨б╨░╨╣╨┤╨▒╨░╤А */
+  .ab-link1 {
+    background: url(../img/ico1.png) no-repeat center left; }
+
+  .ab-link2 {
+    background: url(../img/ico2.png) no-repeat center left; }
+
+  .ab-link3 {
+    background: url(../img/ico3.png) no-repeat center left; }
+
+  .ab-link4 {
+    background: url(../img/ico4.png) no-repeat center left; }
+
+  .ab-link5 {
+    background: url(../img/ico5.png) no-repeat center left; }
+
+  .ab-link6 {
+    background: url(../img/ico6.png) no-repeat center left; }
+
+  .ab-link-span {
+    padding-left: 39px; }
+
+  .ab-links {
+    text-align: left;
+    padding-top: 10px; }
+
+  .ab-side-color {
+    text-align: left;
+    padding-left: 35px; }
+
   h2 {
     padding-top: 100px;
     margin: 17px auto; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-  /* ╨Т╤В╨╛╤А╨╛╨╣ ╤Б╨╗╨░╨╣╨┤╨╡╤А */
-    /*#owl-example2 {
+  /* ╨Ъ╨╜╨╛╨┐╨║╨╕ ╨▓╤В╨╛╤А╨╛╨│╨╛ ╤Б╨╗╨░╨╣╨┤╨░ */
+  .prev_arrs {
+    left: -40px;
+    top: 105px; }
 
-  .owl-next {
-      //position: absolute;  
-      width: 12px;
-      height: 20px;
-      background: url(../img/rr.png) no-repeat;
-      //margin: 91px 745px; 
-      
-  }
-}*/
-  /* ╨Ъ╨╛╨╜╨╡╤Ж ╨▓╤В╨╛╤А╨╛╨│╨╛ ╤Б╨╗╨░╨╣╨┤╨╡╤А╨░ */
+  .next_arrs {
+    right: -35px;
+    top: 105px; }
+
+  /* ╨б╨░╨╣╨┤╨▒╨░╤А */
+  .ab-link1 {
+    background: url(../img/ico1.png) no-repeat center left; }
+
+  .ab-link2 {
+    background: url(../img/ico2.png) no-repeat center left; }
+
+  .ab-link3 {
+    background: url(../img/ico3.png) no-repeat center left; }
+
+  .ab-link4 {
+    background: url(../img/ico4.png) no-repeat center left; }
+
+  .ab-link5 {
+    background: url(../img/ico5.png) no-repeat center left; }
+
+  .ab-link6 {
+    background: url(../img/ico6.png) no-repeat center left; }
+
+  .ab-link-span {
+    padding-left: 39px; }
+
+  .ab-links {
+    text-align: left;
+    padding-top: 10px; }
+
+  .ab-side-color {
+    text-align: left;
+    padding-left: 35px; }
+
+  /* ╨Ъ╨╛╨╜╨╡╤Ж ╤Б╨░╨╣╨┤╨▒╨░╤А╨░ */
   .ab-ramki1-2 {
     width: 95%; }
 
@@ -890,16 +981,6 @@ h2 {
     height: 378px; }
 
   /*----------------------------------------------------*/
-  /* ╨Ф╨▓╨╡ ╨║╨╜╨╛╨┐╨║╨╕ ╨▓ ╨║╨░╤А╤В╨╛╤З╨║╨╡ ╤В╨╛╨▓╨░╤А╨░ ╨▒╨╛╨╗╤М╤И╨╛╨╣ ╤Н╨║╤А╨░╨╜ */
-  /*.ab-button-left {
-      padding: 8px 10px;
-  }
-  
-  .ab-button-right {
-      padding: 10px 15px;
-  }
-  */
-  /*-------- ╨Ъ╨╛╨╜╨╡╤Ж ╨║╨░╤А╤В╨╛╤З╨║╨╕ ╤В╨╛╨▓╨░╤А╨░ ------------------*/
   .ab-otziv-title {
     float: left; }
 
@@ -938,6 +1019,14 @@ h2 {
 
   /*----------------------------------------------------*/
   /* ╨б╨╗╨░╨╣╨┤╨╡╤А ╨╜╨╛╨▓╨╛╤Б╤В╨╕ */
+  .prev_arrs1 {
+    left: -40px;
+    top: 130px; }
+
+  .next_arrs1 {
+    right: -40px;
+    top: 130px; }
+
   .ab-news-bg {
     margin-top: -230px; }
 

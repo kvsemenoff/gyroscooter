@@ -173,6 +173,11 @@ background-color: #F1C22B;
 
 /*== Основной контент - верхний блок с картинками==*/
 
+.wrapper-links {
+ display: block;
+ margin-left: 20px;
+}
+
 .ab-tovar-item-wrapper {
  
  width: 100%;
@@ -213,6 +218,7 @@ background-color: #F1C22B;
   font-family: "RobotoRegular";
   text-align: center;
   font-size: 16px;
+  margin: 0 auto;
   padding: 8px 50px 5px 25px;
   display: inline-block; 
 }
@@ -221,8 +227,9 @@ background-color: #F1C22B;
   font-family: "RobotoBold";
   text-align: center;
   font-size: 16px;
-  padding-left: 23px;
-  display: inline-block;
+  //padding-left: 23px;
+  //display: inline-block;
+  display: block;
   margin-top: 15px; 
 }
 
@@ -261,22 +268,22 @@ background-color: #F1C22B;
 
 //Иконки в сайдбаре
 .ab-link1 {
-background: url(../img/g1.png) no-repeat center left;
+background: url(../img/ico1.png) no-repeat 40px center;
 }
 .ab-link2 {
-background: url(../img/g2.png) no-repeat center left;
+background: url(../img/ico2.png) no-repeat 40px center;
 }
 .ab-link3 {
-background: url(../img/g3.png) no-repeat center left;
+background: url(../img/ico3.png) no-repeat 40px center;
 }
 .ab-link4 {
-background: url(../img/g4.png) no-repeat center left;
+background: url(../img/ico4.png) no-repeat 40px center;
 }
 .ab-link5 {
-background: url(../img/g5.png) no-repeat center left;
+background: url(../img/ico5.png) no-repeat 40px center;
 }
 .ab-link6 {
-background: url(../img/g6.png) no-repeat center left;
+background: url(../img/ico6.png) no-repeat 40px center;
 }
 
 //Цвет ссылки возле иконок в сайдбаре
@@ -289,17 +296,19 @@ color:black;
 padding-top: 11px;
 font-family: "RobotoRegular";
 font-size: 16px;
-padding-left: 40px;
+//padding-left: 40px;
+//float: left;
 padding-top: 10px;
 display: inline-block;
 }
 
 .ab-links {
   padding-top: 10px;
+  text-align: center;
 }
 
 .ab-side-banner {
-  margin: 40px auto;
+  margin: 40px auto 40px 12px;
 }
 
 
@@ -629,7 +638,7 @@ width: 100%;
     width: 12px;
     height: 20px;
     background: url(../img/slide-left.png) no-repeat;
-    left: -31px;
+    left: -14px;
     top: 130px;
     position: absolute;
 }
@@ -638,7 +647,7 @@ width: 100%;
     width: 12px;
     height: 20px;
     background: url(../img/slide-right.png) no-repeat;
-    right: -31px;
+    right: -14px;
     top: 130px;
     position: absolute;
 }
@@ -728,8 +737,8 @@ padding-left: 10px;
     position: absolute;
     width: 12px;
     height: 20px;
-    left: -31px;
-    top: 100px;
+    left: -14px;
+    top: 145px;
     background: url(../img/ll.png) no-repeat;
     //outline: 1px solid red; 
 }
@@ -737,8 +746,8 @@ padding-left: 10px;
     position: absolute;
     width: 12px;
     height: 20px;
-    right: -31px;
-    top: 100px;
+    right: -14px;
+    top: 145px;
     background: url(../img/rr.png) no-repeat;
     //outline: 1px solid red; 
 }
@@ -1065,6 +1074,42 @@ display: block;
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+
+/* Сайдбар */
+
+//Иконки в сайдбаре
+.ab-link1 {
+background: url(../img/ico1.png) no-repeat center left;
+}
+.ab-link2 {
+background: url(../img/ico2.png) no-repeat center left;
+}
+.ab-link3 {
+background: url(../img/ico3.png) no-repeat center left;
+}
+.ab-link4 {
+background: url(../img/ico4.png) no-repeat center left;
+}
+.ab-link5 {
+background: url(../img/ico5.png) no-repeat center left;
+}
+.ab-link6 {
+background: url(../img/ico6.png) no-repeat center left;
+}
+
+.ab-link-span {
+    padding-left: 39px;
+}
+
+.ab-links {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.ab-side-color {
+    text-align: left;
+    padding-left: 35px;
+}    
 	.ramka-wrapper{
     text-align: center;
   }
@@ -1081,6 +1126,42 @@ display: block;
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
+ /* Сайдбар */
+
+//Иконки в сайдбаре
+.ab-link1 {
+background: url(../img/ico1.png) no-repeat center left;
+}
+.ab-link2 {
+background: url(../img/ico2.png) no-repeat center left;
+}
+.ab-link3 {
+background: url(../img/ico3.png) no-repeat center left;
+}
+.ab-link4 {
+background: url(../img/ico4.png) no-repeat center left;
+}
+.ab-link5 {
+background: url(../img/ico5.png) no-repeat center left;
+}
+.ab-link6 {
+background: url(../img/ico6.png) no-repeat center left;
+}
+
+.ab-link-span {
+    padding-left: 39px;
+}
+
+.ab-links {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.ab-side-color {
+    text-align: left;
+    padding-left: 35px;
+}   
   h2 {
   padding-top: 100px;
   margin: 17px auto;
@@ -1092,20 +1173,54 @@ display: block;
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
-/* Второй слайдер */
-    /*#owl-example2 {
+/* Кнопки второго слайда */
+.prev_arrs {
+    left: -40px;
+    top: 105px;   
+}
+.next_arrs{
+    right: -35px;
+    top: 105px;
+}
 
-  .owl-next {
-      //position: absolute;  
-      width: 12px;
-      height: 20px;
-      background: url(../img/rr.png) no-repeat;
-      //margin: 91px 745px; 
-      
-  }
-}*/
 
-/* Конец второго слайдера */
+/* Сайдбар */
+
+//Иконки в сайдбаре
+.ab-link1 {
+background: url(../img/ico1.png) no-repeat center left;
+}
+.ab-link2 {
+background: url(../img/ico2.png) no-repeat center left;
+}
+.ab-link3 {
+background: url(../img/ico3.png) no-repeat center left;
+}
+.ab-link4 {
+background: url(../img/ico4.png) no-repeat center left;
+}
+.ab-link5 {
+background: url(../img/ico5.png) no-repeat center left;
+}
+.ab-link6 {
+background: url(../img/ico6.png) no-repeat center left;
+}
+
+.ab-link-span {
+    padding-left: 39px;
+}
+
+.ab-links {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.ab-side-color {
+    text-align: left;
+    padding-left: 35px;
+}
+
+/* Конец сайдбара */
     
     .ab-ramki1-2 {
         width: 95%;
@@ -1161,13 +1276,13 @@ display: block;
 }
 
 .ab-strelki-2 {
- width: 66px;
- height: 26px;
- background: url(../img/strelka.png) no-repeat top center;
- display: block;
- position: absolute;
- margin-left: 349px;
- margin-top: -49px;
+     width: 66px;
+     height: 26px;
+     background: url(../img/strelka.png) no-repeat top center;
+     display: block;
+     position: absolute;
+     margin-left: 349px;
+     margin-top: -49px;
 } 
 
 .position-2 {
@@ -1203,21 +1318,6 @@ display: block;
 
 
 /*----------------------------------------------------*/
-
-
-
-/* Две кнопки в карточке товара большой экран */
-/*.ab-button-left {
-    padding: 8px 10px;
-}
-
-.ab-button-right {
-    padding: 10px 15px;
-}
-*/
-/*-------- Конец карточки товара ------------------*/
-
-
 
 
 .ab-otziv-title{
@@ -1272,6 +1372,16 @@ margin-bottom: 10px;
 /*----------------------------------------------------*/
 
 /* Слайдер новости */
+
+.prev_arrs1 {
+    left: -40px;
+    top: 130px;   
+}
+
+.next_arrs1 {
+    right: -40px;
+    top: 130px;
+}
 
 .ab-news-bg {
     margin-top: -230px;

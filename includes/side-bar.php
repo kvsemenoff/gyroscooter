@@ -13,15 +13,16 @@
 	</div>	
 </div>	
 <span class="ab-side-color">ЦВЕТ:</span>
-
-<ul class="ab-links">
-	<li class="ab-link1"><a href="#"><span class="ab-link-span">Черный</span></a></li>
-	<li class="ab-link2"><a href="#"><span class="ab-link-span">Красный</span></a></li>
-	<li class="ab-link3"><a href="#"><span class="ab-link-span">Синий</span></a></li>
-	<li class="ab-link4"><a href="#"><span class="ab-link-span">Желтый</span></a></li>
-	<li class="ab-link5"><a href="#"><span class="ab-link-span">Голубой</span></a></li>
-	<li class="ab-link6"><a href="#"><span class="ab-link-span">Малиновый</span></a></li>
-</ul>	
+<div class="wrapper-links">
+	<ul class="ab-links">
+		<li class="ab-link1"><a href="#"><span class="ab-link-span">Черный</span></a></li>
+		<li class="ab-link2"><a href="#"><span class="ab-link-span">Красный</span></a></li>
+		<li class="ab-link3"><a href="#"><span class="ab-link-span">Синий</span></a></li>
+		<li class="ab-link4"><a href="#"><span class="ab-link-span">Желтый</span></a></li>
+		<li class="ab-link5"><a href="#"><span class="ab-link-span">Голубой</span></a></li>
+		<li class="ab-link6"><a href="#"><span class="ab-link-span">Малиновый</span></a></li>
+	</ul>
+</div>		
 
 <div class="ab-side-banner">
 	<img src="img/side-img.png" alt="">

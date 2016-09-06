@@ -110,9 +110,9 @@
 					<div class="row">
 						<div class="col-md-4 col-sm-12 col-xs-12">
 							<div class="ab-tovar-main">
-								<div class="ab-img-box-main">
+								
 									<img src="img/tovar-img.png">
-								</div>
+								
 								<span class="ab-tovar-name">ГИРОСКУТЕР МОДЕЛЬ 1</span>
 								<span class="ab-line"></span>
 								<div class="ab-table-row">
@@ -138,9 +138,9 @@
 						</div>
 						<div class="col-md-4 col-sm-12 col-xs-12">
 							<div class="ab-tovar-main">
-								<div class="ab-img-box-main">
+								
 								<img src="img/tovar-img.png">
-								</div>
+								
 								<span class="ab-tovar-name">ГИРОСКУТЕР МОДЕЛЬ 1</span>
 								<span class="ab-line"></span>
 								<div class="ab-table-row">
@@ -165,9 +165,9 @@
 							</div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
 							<div class="ab-tovar-main">
-								<div class="ab-img-box-main">
+								
 								<img src="img/tovar-img.png">
-								</div>
+								
 								<span class="ab-tovar-name">ГИРОСКУТЕР МОДЕЛЬ 1</span>
 								<span class="ab-line"></span>
 								<div class="ab-table-row">
@@ -195,9 +195,9 @@
 
 							<div class="col-md-4 col-sm-12 col-xs-12">
 							<div class="ab-tovar-main">
-								<div class="ab-img-box-main">
+								
 									<img src="img/tovar-img.png">
-								</div>
+								
 								<span class="ab-tovar-name">ГИРОСКУТЕР МОДЕЛЬ 1</span>
 								<span class="ab-line"></span>
 								<div class="ab-table-row">
@@ -223,9 +223,9 @@
 						</div>
 						<div class="col-md-4 col-sm-12 col-xs-12">
 							<div class="ab-tovar-main">
-								<div class="ab-img-box-main">
+								
 								<img src="img/tovar-img.png">
-								</div>
+								
 								<span class="ab-tovar-name">ГИРОСКУТЕР МОДЕЛЬ 1</span>
 								<span class="ab-line"></span>
 								<div class="ab-table-row">
@@ -250,9 +250,9 @@
 							</div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
 							<div class="ab-tovar-main">
-								<div class="ab-img-box-main">
+								
 								<img src="img/tovar-img.png">
-								</div>
+								
 								<span class="ab-tovar-name">ГИРОСКУТЕР МОДЕЛЬ 1</span>
 								<span class="ab-line"></span>
 								<div class="ab-table-row">
@@ -285,110 +285,196 @@
 		</div> 
 		<!-- </div> -->
 </section>
-			<section class="ab-content-body-full-width">
-				<div class="container">
-					<div class="row">
+<br>
+<br>
+<br>
+<br>
+<br>
+<section class="ab-content-body-full-width">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
 
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-1"></div>
-							<span class="ab-ramki-word">Доставка в день заказа по Москве
-							 и Санкт-Петербургу</span>
-						</div>
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-2"></div>
-							<span class="ab-ramki-word">Гарантия на продукцию 12 месяцев</span>
-						</div>
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-3"></div>
-							<span class="ab-ramki-word">Пункты 			самовывоза в Москве и Санкт-Петербурге</span>
-						</div>
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-4"></div>
-							<span class="ab-ramki-word">Более 3000 		довольных клиентов</span>
-						</div>
-						<div class="ab-ramki">
-							<div class="ab-ramki-img-5"></div>
-							<span class="ab-ramki-word-special">Гарантия возврата</span>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-
-
+				<div class="ab-box1-2">
+					<div class="ab-ramki1-2">
+						<img src="img/gruzovik.png" alt="">
+						
+						<span>Доставка в день заказа по Москве
+						      и Санкт-Петербургу </span>
 					</div>
 				</div>
-			</section>
 
+				<div class="ab-box1-2">
+					<div class="ab-ramki1-2">
+						
+							<img src="img/medal.png" alt="">
+						
+						<span>Гарантия на продукцию 12 месяцев</span>
+					</div>
+				</div>
+
+				<div class="ab-box1-2">
+					<div class="ab-ramki1-2">
+						
+							<img src="img/punkty.png" alt="">
+						
+						<span>Пункты самовывоза в Москве и Санкт-Петербурге</span>
+					</div>
+				</div>
+
+				<div class="ab-box1-2">
+					<div class="ab-ramki1-2">
+						
+							<img src="img/people.png" alt="">
+						
+						<span>Более 3000 довольных клиентов</span>
+					</div>
+				</div>
+
+				<div class="ab-box1-2">
+					<div class="ab-ramki1-2">
+						
+							<img src="img/vozvrat.png" alt="">
+						
+						<span>Гарантия <br> возврата</span>
+					</div>
+				</div>
+				<div class="clear"></div>
+
+
+				
+				<!--<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img">
+							<img src="img/gruzovik.png" alt="">
+						</div>
+						<span>Доставка в день заказа по Москве
+						 и Санкт-Петербургу</span>
+					</div>
+				</div>
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img">
+							<img src="img/gruzovik.png" alt="">
+						</div>
+						<span>Доставка в день заказа по Москве
+						 и Санкт-Петербургу</span>
+					</div>
+				</div>
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img">
+							<img src="img/gruzovik.png" alt="">
+						</div>
+						<span>Доставка в день заказа по Москве
+						 и Санкт-Петербургу</span>
+					</div>
+				</div>		
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img-2"></div>
+						<span>Гарантия на продукцию 12 месяцев</span>
+					</div>
+				</div>
+
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img-3"></div>
+						<span>Пункты самовывоза в Москве и Санкт-Петербурге</span>
+					</div>
+				</div>
+
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img-4"></div>
+						<span>Более 3000 		довольных клиентов</span>
+					</div>
+				</div>
+
+				<div class="ab-box1">
+					<div class="ab-ramki">
+						<div class="ab-ramki-img-5"></div>
+						<span>Гарантия возврата</span>
+					</div>
+				</div>-->
+			</div>
+		</div>
+	</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
 			<!-- Блок Новости c Каруселью -->
 
 		<section class="ab-news-bg">
 			<div class="container">
 				<div class="row">
 				    <div class="col-md-12 col-sm-12 col-xs-12">
-						<h2>НОВОСТИ</h2>
+					    <div class="wrapper6">
+							<h2>НОВОСТИ</h2>
 
-					<div id="owl-example" class="owl-carousel">
+						<div id="owl-example" class="owl-carousel">
 
-   						<div class="item"> 
-   							<span class="ab-item-date">08 июля 2016</span>
-   							<span class="ab-item-title">Супер новинка 2016 года уже у нас на сайте</span>
-   							<div class="ab-img-box4">
-								<img src="img/1.png" alt="">
+	   						<div class="item"> 
+	   							<span class="ab-item-date">08 июля 2016</span>
+	   							<span class="ab-item-title">Супер новинка 2016 года уже у нас на сайте</span>
+	   							<div class="ab-img-box4">
+									<img src="img/1.png" alt="">
+								</div>
+								<div class="ab-slide-button">
+									<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
+								</div>
 							</div>
-							<div class="ab-slide-button">
-								<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
+
+							<div class="item"> 
+	   							<span class="ab-item-date">06 июля 2016</span>
+	   							<span class="ab-item-title">Гироскутер UERA-ESU009 новое поколение гироскутеров</span>
+	   							<div class="ab-img-box4">
+									<img src="img/2.png" alt="">
+								</div>
+								<div class="ab-slide-button">
+									<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
+								</div>
+							</div>
+
+							<div class="item"> 
+	   							<span class="ab-item-date">08 июля 2016</span>
+	   							<span class="ab-item-title">Презентация Eclipse 0I 25 Новый концепт гироскутера</span>
+	   							<div class="ab-img-box4">
+									<img src="img/3.png" alt="">
+								</div>
+								<div class="ab-slide-button">
+									<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
+								</div>
+							</div>
+
+							<div class="item"> 
+	   							<span class="ab-item-date">08 июля 2016</span>
+	   							<span class="ab-item-title">Супер новинка 2016 года уже у нас на сайте</span>
+	   							<div class="ab-img-box4">
+									<img src="img/1.png" alt="">
+								</div>
+								<div class="ab-slide-button">
+									<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
+								</div>
+							</div>
+
+							<div class="item"> 
+	   							<span class="ab-item-date">08 июля 2016</span>
+	   							<span class="ab-item-title">Супер новинка 2016 года уже у нас на сайте</span>
+	   							<div class="ab-img-box4">
+									<img src="img/1.png" alt="">
+								</div>
+								<div class="ab-slide-button">
+									<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
+								</div>
 							</div>
 						</div>
-
-						<div class="item"> 
-   							<span class="ab-item-date">06 июля 2016</span>
-   							<span class="ab-item-title">Гироскутер UERA-ESU009 новое поколение гироскутеров</span>
-   							<div class="ab-img-box4">
-								<img src="img/2.png" alt="">
-							</div>
-							<div class="ab-slide-button">
-								<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
-							</div>
-						</div>
-
-						<div class="item"> 
-   							<span class="ab-item-date">08 июля 2016</span>
-   							<span class="ab-item-title">Презентация Eclipse 0I 25 Новый концепт гироскутера</span>
-   							<div class="ab-img-box4">
-								<img src="img/3.png" alt="">
-							</div>
-							<div class="ab-slide-button">
-								<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
-							</div>
-						</div>
-
-						<div class="item"> 
-   							<span class="ab-item-date">08 июля 2016</span>
-   							<span class="ab-item-title">Супер новинка 2016 года уже у нас на сайте</span>
-   							<div class="ab-img-box4">
-								<img src="img/1.png" alt="">
-							</div>
-							<div class="ab-slide-button">
-								<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
-							</div>
-						</div>
-
-						<div class="item"> 
-   							<span class="ab-item-date">08 июля 2016</span>
-   							<span class="ab-item-title">Супер новинка 2016 года уже у нас на сайте</span>
-   							<div class="ab-img-box4">
-								<img src="img/1.png" alt="">
-							</div>
-							<div class="ab-slide-button">
-								<span class="ab-slide-button-txt"><a href="#">Смотреть обзор</a></span>
-							</div>
 						</div>
 					</div>
-				</div>
-					<script>
-						$(document).ready(function() { });
-					</script>
-
-					
+					<script>$(document).ready(function() { });</script>
 				</div>
 			</div>
 		</section>		
@@ -397,54 +483,50 @@
 			<div class="container">
 				<div class="row">
 				   <div class="col-md-12 col-sm-12 col-xs-12">
-					<div class="ab-otzivi">ОТЗЫВЫ ДОВОЛЬНЫХ ПОКУПАТЕЛЕЙ</div>
-					 <div id="owl-example2" class="owl-carousel">
-						
-					<div class="item">
-						<div class="ab-box-text">
-							<div class="ab-item-left">
-								<div class="ab-img-box5">
-									<img src="img/the-girl.png" alt="">
+					   <div class="ab-wrapper5">
+							<div class="ab-otzivi">ОТЗЫВЫ ДОВОЛЬНЫХ ПОКУПАТЕЛЕЙ</div>
+							<div id="owl-example2">
+								<div class="item">
+									<div class="ab-box-text">
+										<div class="ab-item-left">
+											<div class="ab-img-box5">
+												<img src="img/the-girl.png" alt="">
+											</div>
+											<div class="ab-name-otziv">Никита</div>
+											<div class="ab-name-otziv2">Попов</div>
+										</div>
+										
+										<div class="ab-otziv-title">
+											<div class="ab-txt-sl">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</div>
+											<div class="ab22">Гироскутер реально клевая вещь. Обучение максимум 15 минут потом я уже летала как профессионал! Очень здорово в парке кататься, весело! Быстро заряжается и хватает на полноценную прогулку.
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
 								</div>
-								<div class="ab-name-otziv">Никита</div>
-								<div class="ab-name-otziv2">Попов</div>
-							</div>
-							
-							<div class="ab-otziv-title">
-								<div class="ab-txt-sl">ОЧЕНЬ ПРИКОЛЬНАЯ ВЕЩЬ</div>
-								<div class="ab22">Гироскутер реально клевая вещь. Обучение максимум 15 минут потом я уже летала как профессионал! Очень здорово в парке кататься, весело! Быстро заряжается и хватает на полноценную прогулку.
+								<div class="item"> 
+									<div class="ab-box-text">
+										<div class="ab-item-left">
+											<div class="ab-img-box5">
+												<img src="img/the-girl.png" alt="">
+											</div>
+											<div class="ab-name-otziv">Никита</div>
+											<div class="ab-name-otziv2">Попов</div>
+										</div>
+										
+										<div class="ab-otziv-title">
+											<div class="ab-txt-sl">РАД ПОКУПКЕ</div>
+											<div class="ab22">Гироскутер реально клевая вещь. Обучение максимум 15 минут потом я уже летала как профессионал! Очень здорово в парке кататься, весело! Быстро заряжается и хватает на полноценную прогулку.
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</div>
 								</div>
 							</div>
-							<div class="clearfix"></div>
+							<div class="ab-button-otziv">
+								<span><a href="#">Оставить отзыв</a></span>
+							</div>
 						</div>
-					</div>
-					
-					<div class="item"> 
-						<div class="ab-box-text">
-							<div class="ab-item-left">
-								<div class="ab-img-box5">
-									<img src="img/the-girl.png" alt="">
-								</div>
-								<div class="ab-name-otziv">Никита</div>
-								<div class="ab-name-otziv2">Попов</div>
-							</div>
-							
-							<div class="ab-otziv-title">
-								<div class="ab-txt-sl">РАД ПОКУПКЕ</div>
-								<div class="ab22">Гироскутер реально клевая вещь. Обучение максимум 15 минут потом я уже летала как профессионал! Очень здорово в парке кататься, весело! Быстро заряжается и хватает на полноценную прогулку.
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-
-						
-
-
-						
-						</div>
-						<div class="ab-button-otziv"><span><a href="#">Оставить отзыв</a></span>
-					   </div>
 					</div>
 				</div>
 			</div>	

@@ -173,6 +173,11 @@ background-color: #F1C22B;
 
 /*== Основной контент - верхний блок с картинками==*/
 
+.wrapper-links {
+ display: block;
+ margin-left: 20px;
+}
+
 .ab-tovar-item-wrapper {
  
  width: 100%;
@@ -213,6 +218,7 @@ background-color: #F1C22B;
   font-family: "RobotoRegular";
   text-align: center;
   font-size: 16px;
+  margin: 0 auto;
   padding: 8px 50px 5px 25px;
   display: inline-block; 
 }
@@ -221,8 +227,9 @@ background-color: #F1C22B;
   font-family: "RobotoBold";
   text-align: center;
   font-size: 16px;
-  padding-left: 23px;
-  display: inline-block;
+  //padding-left: 23px;
+  //display: inline-block;
+  display: block;
   margin-top: 15px; 
 }
 
@@ -261,22 +268,22 @@ background-color: #F1C22B;
 
 //Иконки в сайдбаре
 .ab-link1 {
-background: url(../img/g1.png) no-repeat center left;
+background: url(../img/ico1.png) no-repeat 40px center;
 }
 .ab-link2 {
-background: url(../img/g2.png) no-repeat center left;
+background: url(../img/ico2.png) no-repeat 40px center;
 }
 .ab-link3 {
-background: url(../img/g3.png) no-repeat center left;
+background: url(../img/ico3.png) no-repeat 40px center;
 }
 .ab-link4 {
-background: url(../img/g4.png) no-repeat center left;
+background: url(../img/ico4.png) no-repeat 40px center;
 }
 .ab-link5 {
-background: url(../img/g5.png) no-repeat center left;
+background: url(../img/ico5.png) no-repeat 40px center;
 }
 .ab-link6 {
-background: url(../img/g6.png) no-repeat center left;
+background: url(../img/ico6.png) no-repeat 40px center;
 }
 
 //Цвет ссылки возле иконок в сайдбаре
@@ -289,29 +296,38 @@ color:black;
 padding-top: 11px;
 font-family: "RobotoRegular";
 font-size: 16px;
-padding-left: 40px;
+//padding-left: 40px;
+//float: left;
 padding-top: 10px;
 display: inline-block;
 }
 
 .ab-links {
   padding-top: 10px;
+  text-align: center;
 }
 
 .ab-side-banner {
-  margin: 40px auto;
+  margin: 40px auto 40px 12px;
 }
 
 
 /*== Блок с товаром под слайдером ==*/
 
 .ab-tovar-main {
-background: url(../img/tovar-bg.png) no-repeat;
-width: 100%;
-background-size: cover;
-border: 1px solid #D1D1D1;
-border-radius: 6px;
-margin-top: 15px;
+
+    background: url(../img/tovar-bg.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+    border: 1px solid #D1D1D1;
+    border-radius: 6px;
+    margin-top: 15px;
+
+    img {
+        display: block;
+        margin: 60px auto; 
+    }
+
 }
 
 .ab-img-box-main {
@@ -319,18 +335,19 @@ margin-top: 15px;
 }
 
 .ab-tovar-name {
-font-family: "RobotoBold";
-text-align: center;
-font-size: 16px;
-margin-left: 40px;
+    display: block;
+    font-family: "RobotoBold";
+    font-size: 16px;
+    //margin-left: 40px;
+    text-align: center;
 }
 
 .ab-line {
-background: url(../img/line.png) no-repeat;
-width: 100%;
-height: 1px;
-display: inline-block;
-background-size: cover;
+    background: url(../img/line.png) no-repeat;
+    width: 100%;
+    height: 1px;
+    display: inline-block;
+    background-size: cover;
 }
 
 .ab-table-row {
@@ -339,43 +356,44 @@ background-size: cover;
 }
 
 .ab-table-row-left, .ab-table-row-right {
- vertical-align: middle;
- display: table-cell;
- font-family: "RobotoLight";
+     vertical-align: middle;
+     display: table-cell;
+     font-family: "RobotoLight";
 }
 
 .ab-table-row-left {
-  text-align: left;
-  padding-left: 13px;
+      text-align: left;
+      padding-left: 13px;
 }
 
 .ab-table-row-right {
-  text-align: right;
-  padding-right: 13px;
+      text-align: right;
+      padding-right: 13px;
 
 }
 
 /* Две кнопки в карточке товара */
-.ab-button-left {
- font-family: "RobotoBold";
- text-align: center;
- font-size: 18px;
- color:red;
- border: 2px solid red; 
- border-radius: 4px;
- padding: 8px 23px;
- display: inline-block;
- margin: 35px 5px 20px;
+
+    .ab-button-left {
+     font-family: "RobotoBold";
+     text-align: center;
+     font-size: 18px;
+     color:red;
+     border: 2px solid red; 
+     border-radius: 4px;
+     padding: 8px 23px;
+     display: inline-block;
+     margin: 35px 5px 20px;
 }
 
 .ab-button-right {
- background-color: #F1C22B;
- font-family: "RobotoBold";
- text-align: center;
- font-size: 18px;
- color:white; 
- border-radius: 4px;
- padding: 10px 28px;
+     background-color: #F1C22B;
+     font-family: "RobotoBold";
+     text-align: center;
+     font-size: 18px;
+     color:white; 
+     border-radius: 4px;
+     padding: 10px 28px;
 }
 
 
@@ -383,109 +401,226 @@ background-size: cover;
 /*== Блок с картинкой на всю ширину и 5 элементами ==*/
 
 .ab-content-body-full-width {
-background: rgba(0, 0, 0, 0) url("../img/full-img.png") no-repeat scroll center top;
-background-size: cover;
-    //height: 390px;
-    //margin-bottom: 10px;
-   // margin-top: 10px;
-    padding: 170px 5px;
+
+    background: rgba(0, 0, 0, 0) url("../img/full-img.png") no-repeat center top;
+    background-size: cover;
+    padding: 208px 5px 107px;
     position: relative;
     z-index: 2;
 }
 
-.ab-ramki{
-width: 190px;
-height: 133px;
-background: url(../img/ramka-p.png) no-repeat top center;
-display: inline-block;
-float: left;
-margin-left: 37px;
-margin-top: 140px;
-position: relative;
+
+/*---------------------ТЕСТ---------------------------*/
+
+.ab-ramki1-2 {
+
+    //width: 100%;
+    min-height: 152px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: "RobotoRegular";
+    text-align: center;
+    font-size: 16px;
+    color:black;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 55px;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    //outline: 1px solid red;
+    img{
+        display: block; 
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+        width: 103px;
+        height: 103px;
+        top: -50px;
+    }
+    span{
+        display: block;
+        padding-top: 75px;
+    }
+
 }
 
-/* Картинки для рамок 5 штук */
+.ab-box1-2 {
+
+    width: 100%;
+    //float: left;
+    //outline: 2px solid red;
+
+}
+
+/*.ab-ramki1-2-img {
+
+   margin-top: -50px;
+}*/
+
+.ab-ramki1-2-img {
+
+    display: block; 
+    position: absolute;
+    left: 50%;
+    transform: translate (-50%,0);
+    width: 103px;
+    height: 103px;
+    outline: 1px solid red;
+
+    img {
+        display: block;
+    }
+}
+
+
+
+
+/*---------------------ТЕСТ--------------------------*/
+
+
+/*.ab-ramki{
+
+    width: 100%;
+    height: 152px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: "RobotoRegular";
+    text-align: center;
+    font-size: 16px;
+    color:black;
+    display: block;
+    position: relative;
+    border-radius: 5px;
+    outline: 1px solid red;
+}
+
+.ab-box1 {
+
+    width: 100%;
+    //float: left;
+    outline: 2px solid red;
+
+}
+
+
+.ab-ramki-img{
+
+    display: block; 
+    position: absolute;
+    margin-left: 50%;
+
+    transform: translate (-50%,0);
+    width: 103px;
+    height: 103px;
+    
+    outline: 1px solid red;
+    img{
+        display: block;
+    }
+}
+
+
 .ab-ramki-img-1{
-display: inline-block; 
-position: absolute;
-width: 190px;
-height: 133px;
-background: url(../img/gruzovik.png) no-repeat top center;
-margin-top: -50px; 
+
+    display: block; 
+    position: absolute;
+    left: 50%;
+    transform: translate (-50%,0);
+    width: 190px;
+    height: 133px;
+    background: url(../img/gruzovik.png) no-repeat top center; 
+    outline: 1px solid red;
 }
 
 .ab-ramki-img-2{
-display: inline-block; 
-position: absolute;
-width: 190px;
-height: 133px;
-background: url(../img/medal.png) no-repeat top center;
-margin-top: -50px; 
+  
+    position: absolute;
+    background: url(../img/medal.png) no-repeat top center;
+    margin-left: 50%;
+    transform: translate (-50%,0);
+    width: 190px;
+    height: 133px; 
 }
 
 .ab-ramki-img-3{
-display: inline-block; 
-position: absolute;
-width: 190px;
-height: 133px;
-background: url(../img/punkty.png) no-repeat top center;
-margin-top: -50px; 
+
+    position: absolute;
+    width: 190px;
+    height: 133px;
+    background: url(../img/punkty.png) no-repeat top center;
+    margin-left: 50%;
+    transform: translate (-50%,0);
+    margin-top: -102px; 
 }
 
 .ab-ramki-img-4{
-display: inline-block; 
-position: absolute;
-width: 190px;
-height: 133px;
-background: url(../img/people.png) no-repeat top center;
-margin-top:-50px; 
+
+    position: absolute;
+    margin-left: 50%;
+    transform: translate (-50%,0);
+    margin-top: -102px; 
+    width: 190px;
+    height: 133px;
+    background: url(../img/people.png) no-repeat top center;
+
 }
 
 .ab-ramki-img-5 {
-display: inline-block; 
-position: absolute;
-width: 190px;
-height: 133px;
-background: url(../img/vozvrat.png) no-repeat top center;
-margin-top:-50px; 
+
+    position: absolute;
+    margin-left: 50%;
+    transform: translate (-50%,0);
+    margin-top: -102px; 
+    width: 190px;
+    height: 133px;
+    background: url(../img/vozvrat.png) no-repeat top center;
 }
+*/
 
 
-/* Записи в рамках общие */
+/* Записи в рамках общие 
+.ab-ramki-word {
+background-color: rgba(255, 255, 255, 0.8);
+font-family: "RobotoRegular";
+text-align: center;
+font-size: 16px;
+color:black;
+display: block;
+padding: 60px 10px;
+width: 190px;
+}*/
+
+/* Отдельный класс для последней записи 
 .ab-ramki-word {
 font-family: "RobotoRegular";
 text-align: center;
 font-size: 16px;
 color:black;
 display: inline-block;
-padding: 60px 10px;
-}
-
-/* Отдельный класс для последней записи */
-.ab-ramki-word-special {
-font-family: "RobotoRegular";
-text-align: center;
-font-size: 16px;
-color:black;
-display: inline-block;
 padding: 59px 24px;
+background-color: rgba(255, 255, 255, 0.8);
+width: 100%;
 }
+*/
 
 /*== Блок Новости со слайдом ==*/
 
-.owl-carousel{
-margin-top: -60px;
+
+.owl-carousel {
+ margin-top: 20px;
+ margin-bottom: 20px;
 }
 
 .ab-news-bg {
    background: rgba(0, 0, 0, 0) url("../img/news-bg.png") no-repeat scroll center top / cover ;
-    margin-top: -170px;
+    margin-top: -230px;
     //margin-top: -44px;
     position: relative;
     z-index: 1;
 }
 
 #owl-example {
+    
+
   .item {
     border: 1px solid #E5E5E5;
     border-radius: 3px;
@@ -495,13 +630,50 @@ margin-top: -60px;
   } 
 }
 
+.wrapper6 {
+    position: relative;
+}
 
-h2  {
+.prev_arrs1 {
+    width: 12px;
+    height: 20px;
+    background: url(../img/slide-left.png) no-repeat;
+    left: -14px;
+    top: 130px;
+    position: absolute;
+}
+
+.next_arrs1 {
+    width: 12px;
+    height: 20px;
+    background: url(../img/slide-right.png) no-repeat;
+    right: -14px;
+    top: 130px;
+    position: absolute;
+}
+
+
+/*.owl-prev {
+width: 12px;
+height: 20px;
+background: url(../img/slide-left.png) no-repeat;
+margin: -134px -23px;
+}
+
+.owl-next {
+width: 12px;
+height: 20px;
+background: url(../img/slide-right.png) no-repeat;
+margin: 113px 751px;
+}
+*/
+h2 {
   color: black;
   display: block;
   font-family: "RobotoBold";
-  font-size: 36px;
-  margin: 25px 42px 65px;
+  font-size: 34px;
+  margin: 18px auto;
+  text-align: center;
 }
 
 .ab-item-date {
@@ -516,7 +688,7 @@ padding-left: 20px;
 .ab-item-title {
 font-family: "RobotoRegular";
 text-align: left;
-font-size: 22px;
+font-size: 18px;
 color:black;
 display: inline-block;
 //padding-left: 20px;
@@ -529,13 +701,15 @@ padding-left: 10px;
 
 /* Кнопка на слайдере */
 .ab-slide-button {
-    background-color: #DA4C4C;
+    background-color: #da4c4c;
+    color: #fff;
     display: block;
-     margin: -17px 21px 0 105px;
-    //margin: -25px 31px 24px 190px;
-    text-align: center;
-    color:#fff;
+    //margin: 21px auto;
+    //text-align: center;
+    margin-left: calc(100% - 156px);
     transform: skew(-24deg);
+    width: 140px;
+
 }
 
 /* Текст со ссылкой на слайдере */
@@ -543,57 +717,68 @@ padding-left: 10px;
   color: white;
     display: block;
     font-family: "RobotoBold";
-    font-size: 15px;
     height: 45px;
-    margin: 0 auto;
-    padding-right: 54px;
+    padding-left: 10px;
     padding-top: 10px;
-    text-align: center;
+    text-align: left;
     transform: skew(23deg);
-    width: 180px;
+    width: 155px;
 }
-
-.owl-prev {
-width: 12px;
-height: 20px;
-background: url(../img/slide-left.png) no-repeat;
-margin: -134px -23px;
-}
-
-.owl-next {
-width: 12px;
-height: 20px;
-background: url(../img/slide-right.png) no-repeat;
-margin: 113px 1181px;
-}
-
 
 
 /*== Блок Отзывы со слайдом ==*/
 
-#owl-example2 {
-
-  .owl-prev{
-      width: 12px;
-      height: 20px;
-      background: url(../img/ll.png) no-repeat;
-      margin: -114px -40px;
-
-  }
-}
-
-#owl-example2 {
-
-  .owl-next{
-      width: 12px;
-      height: 20px;
-      background: url(../img/rr.png) no-repeat;
-      margin: 91px 1164px;
-      
-  }
+.ab-wrapper5{
+    position: relative;
 }
 
 
+.prev_arrs {
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    left: -14px;
+    top: 145px;
+    background: url(../img/ll.png) no-repeat;
+    //outline: 1px solid red; 
+}
+.next_arrs{
+    position: absolute;
+    width: 12px;
+    height: 20px;
+    right: -14px;
+    top: 145px;
+    background: url(../img/rr.png) no-repeat;
+    //outline: 1px solid red; 
+}
+
+
+
+ /*#owl-example2 {
+   .owl-prev{ 
+        position: absolute;
+        width: 12px;
+        height: 20px;
+        left: -31px;
+        top: 91px;
+        background: url(../img/ll.png) no-repeat;
+  }
+}
+
+
+#owl-example2 {
+
+
+   .owl-next { 
+        position: absolute;
+        width: 12px;
+        height: 20px;
+        right: -31px;
+        top: 91px;
+        background: url(../img/rr.png) no-repeat;
+   }
+ }
+*/
 
 .ab-slide-bg {
   background: rgba(0, 0, 0, 0) url("../img/full-slide-bg.png") no-repeat scroll center top;
@@ -601,19 +786,22 @@ margin: 113px 1181px;
 }
 
 .ab-otzivi {
-font-family: "RobotoBold";
-text-align: center;
-font-size: 20px;
-color:black;
-display: inline-block;
-margin-top:-6px;
-margin-bottom: 70px;
+    color: black;
+    display: block;
+    font-family: "RobotoBold";
+    font-size: 20px;
+    margin-bottom: 70px;
+    margin-top: 6px;
+    text-align: center;
 }
 
 .ab-box-text {
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
+  background-color: rgba(255,255,255, 0.8);
+  
 }
 
 .ab-img-box5{
@@ -671,12 +859,15 @@ color: #DA4C4C;
 }
 
 .ab22 {
+  display: block;
 color: black;
 font-family: "RobotoRegular";
 text-align: center;
 font-size: 16px;
 margin-bottom: 10px;
 padding: 10px;
+text-align: center;
+//width: 250px;
 }
 
 
@@ -687,7 +878,7 @@ text-align: center;
 font-size: 16px;
 width: 240px;
 height: 40px;
-margin: 122px auto 75px;
+margin: 30px auto 75px;
 border-radius: 5px;
 display: block;
  
@@ -700,10 +891,6 @@ display: block;
 }
 
 
-.ab-box-text{
-  width: 100%;
-  background-color: rgba(255,255,255, 0.8);
-}
 
 /*== Блок о нас ==*/
 
@@ -711,17 +898,19 @@ display: block;
   span{
   font-family: "Robotobold";
   text-align: center;
-  font-size: 36px;
+  font-size: 25px;
   display: block;
-  margin: 0 auto 10px; 
+  margin: -20px auto 9px; 
   }
 }
 
 .ab-about-us-txt {
   span{
   font-family: "MyriadPro-Regular";
-  text-align: left;
-  font-size: 16px; 
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px; 
   }
 }
 
@@ -739,7 +928,10 @@ display: block;
     display: block;
     font-family: "Robotobold";
     font-size: 20px;
-    margin: 25px 11px;
+    //margin: 23px 11px;
+    margin-bottom: 24px;
+    margin-top: 15px;
+    text-align: center;
 
 
   }
@@ -772,12 +964,12 @@ display: block;
 
 .ab-txt-phone {
   span {
-    display: inline-block;
+    color: white;
+    display: block;
     font-family: "MyriadPro-Regular";
     font-size: 16px;
     padding: 15px;
     text-align: center;
-    color: white;
 
 
      a {
@@ -882,47 +1074,215 @@ display: block;
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+
+/* Сайдбар */
+
+//Иконки в сайдбаре
+.ab-link1 {
+background: url(../img/ico1.png) no-repeat center left;
+}
+.ab-link2 {
+background: url(../img/ico2.png) no-repeat center left;
+}
+.ab-link3 {
+background: url(../img/ico3.png) no-repeat center left;
+}
+.ab-link4 {
+background: url(../img/ico4.png) no-repeat center left;
+}
+.ab-link5 {
+background: url(../img/ico5.png) no-repeat center left;
+}
+.ab-link6 {
+background: url(../img/ico6.png) no-repeat center left;
+}
+
+.ab-link-span {
+    padding-left: 39px;
+}
+
+.ab-links {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.ab-side-color {
+    text-align: left;
+    padding-left: 35px;
+}    
 	.ramka-wrapper{
     text-align: center;
   }
-
+ h2 {
+  
+  padding-top: 10px;
+  margin-top: 77px;
 
 }
 
+}
+
+
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
+ /* Сайдбар */
+
+//Иконки в сайдбаре
+.ab-link1 {
+background: url(../img/ico1.png) no-repeat center left;
+}
+.ab-link2 {
+background: url(../img/ico2.png) no-repeat center left;
+}
+.ab-link3 {
+background: url(../img/ico3.png) no-repeat center left;
+}
+.ab-link4 {
+background: url(../img/ico4.png) no-repeat center left;
+}
+.ab-link5 {
+background: url(../img/ico5.png) no-repeat center left;
+}
+.ab-link6 {
+background: url(../img/ico6.png) no-repeat center left;
+}
+
+.ab-link-span {
+    padding-left: 39px;
+}
+
+.ab-links {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.ab-side-color {
+    text-align: left;
+    padding-left: 35px;
+}   
+  h2 {
+  padding-top: 100px;
+  margin: 17px auto;
+
+}
 	
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
-  h2 {
-    margin: 127px 485px 21px;
-  }
+/* Кнопки второго слайда */
+.prev_arrs {
+    left: -40px;
+    top: 105px;   
+}
+.next_arrs{
+    right: -35px;
+    top: 105px;
+}
 
-.ab-strelki-1 {
- width: 66px;
- height: 26px;
- background: url(../img/strelka.png) no-repeat top center;
- display: block;
- position: absolute;
-  margin-left: 325px;
-  margin-top: -48px;
-}  
+
+/* Сайдбар */
+
+//Иконки в сайдбаре
+.ab-link1 {
+background: url(../img/ico1.png) no-repeat center left;
+}
+.ab-link2 {
+background: url(../img/ico2.png) no-repeat center left;
+}
+.ab-link3 {
+background: url(../img/ico3.png) no-repeat center left;
+}
+.ab-link4 {
+background: url(../img/ico4.png) no-repeat center left;
+}
+.ab-link5 {
+background: url(../img/ico5.png) no-repeat center left;
+}
+.ab-link6 {
+background: url(../img/ico6.png) no-repeat center left;
+}
+
+.ab-link-span {
+    padding-left: 39px;
+}
+
+.ab-links {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.ab-side-color {
+    text-align: left;
+    padding-left: 35px;
+}
+
+/* Конец сайдбара */
+    
+    .ab-ramki1-2 {
+        width: 95%;
+    }
+
+   .ab-box1-2 {
+        float: left;
+        margin-bottom: 128px;
+        margin-top: 112px;
+        width: 20%;
+        //outline: 2px solid red;
+        span{
+            padding-top: 60px !important;
+        }
+
+    } 
+   
+   .ab-slide-button {
+        margin-left: calc(100% - 156px);
+    }
+
+
+
+    h2 {
+    margin: -35px auto 15px;
+    padding-top: 0;
+}
+
+    .ab22 {
+        text-align: left;
+        width: 325px;
+    }
+
+    .ab-about-us-txt {
+      span{
+      text-align: left;
+      }
+    }
+
+
+    .ab-strelki-1 {
+        width: 66px;
+        height: 26px;
+        background: url(../img/strelka.png) no-repeat top center;
+        display: block;
+        position: absolute;
+        margin-left: 325px;
+        margin-top: -48px;
+    }  
 
 .position {
   position: relative;
 }
 
 .ab-strelki-2 {
- width: 66px;
- height: 26px;
- background: url(../img/strelka.png) no-repeat top center;
- display: block;
- position: absolute;
- margin-left: 349px;
-  margin-top: -49px;
+     width: 66px;
+     height: 26px;
+     background: url(../img/strelka.png) no-repeat top center;
+     display: block;
+     position: absolute;
+     margin-left: 349px;
+     margin-top: -49px;
 } 
 
 .position-2 {
@@ -957,34 +1317,24 @@ display: block;
 }
 
 
-
-
 /*----------------------------------------------------*/
 
 
 .ab-otziv-title{
   float: left;
 }
-.ab22{
-  //width: 357px;
-  width: 344px;
-  padding-left: 15px;
-  height: 155px;
-  text-align: left;
-  font-family: "RobotoRegular";
-  color: black;
-  font-size: 16px;
-}
+
 
 .ab-img-box5 {
     //float: left;
      margin: 26px 12px 12px 14px;
    
 }
+
 .ab-item-left{
   float: left;
-  
 }
+
 .ab-txt-sl {
   //background: rgba(0, 0, 0, 0) url("../img/slide-txt-bg.png") no-repeat scroll center top;
     font-family: "RobotoRegular";
@@ -1015,18 +1365,36 @@ margin-bottom: 10px;
     padding-top: 10px;
     text-align: center;
 }
+.clear{
+    clear: both;
+}
 
 /*----------------------------------------------------*/
 
+/* Слайдер новости */
 
+.prev_arrs1 {
+    left: -40px;
+    top: 130px;   
+}
+
+.next_arrs1 {
+    right: -40px;
+    top: 130px;
+}
+
+.ab-news-bg {
+    margin-top: -230px;
+}
+
+
+.box1{
+  display: flex;
+  flex-flow: row wrap; 
+}
 
   .ab-item-title {
 padding-left: 20px;
-}
-
-  .ab-slide-button {
-   margin: -25px 31px 24px 190px;
-   
 }
 
   .owl-carousel{
@@ -1034,13 +1402,13 @@ margin-top: 0;
 }
 
 .ab-content-body-full-width {
-background: url(../img/full-img.png) no-repeat top center;
-height: 390px;
-padding: 0px 5px;
-margin-top: 10px;
-margin-bottom: 10px;
-position: relative;
-z-index: 2;
+    background: url(../img/full-img.png) no-repeat top center;
+    //height: 390px;
+    padding: 0px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
 }
 
   .ab-button-left {

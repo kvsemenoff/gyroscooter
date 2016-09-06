@@ -99,7 +99,7 @@ $("#owl-example").owlCarousel({
             autoplay:false, //Автозапуск слайдера
             smartSpeed:1000, //Время движения слайда
             autoplayTimeout:2000, //Время смены слайда
-            navText:['<span class="prev arrs"></span>', '<span class="next arrs"></span>'],
+            navText:['<span class="prev_arrs1"></span>', '<span class="next_arrs1"></span>'],
             responsive:{ //Адаптация в зависимости от разрешения экрана
                 0:{
                     items:1
@@ -121,7 +121,7 @@ $("#owl-example2").owlCarousel({
             autoplay:false, //Автозапуск слайдера
             smartSpeed:1000, //Время движения слайда
             autoplayTimeout:2000, //Время смены слайда
-            navText:['<span class="prev arrs"></span>', '<span class="next arrs"></span>'],
+            navText:['<span class="prev_arrs"></span>', '<span class="next_arrs"></span>'],
             responsive:{ //Адаптация в зависимости от разрешения экрана
                 0:{
                     items:1

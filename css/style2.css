@@ -17,6 +17,39 @@
 .clear {
   clear: both; }
 
+.del_breadcrumbs {
+  margin: 30px 0; }
+
+.dbritem {
+  color: #da4c4c !important; }
+
+.del_breadcrumbs-item {
+  display: inline-block;
+  font-family: "RobotoRegular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #666; }
+
+.delivery {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center; }
+
+.delivery_item {
+  position: relative;
+  max-width: 245px;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+
+.delivery_item:before {
+  position: absolute;
+  content: "";
+  background: none;
+  width: 66px;
+  height: 26px;
+  right: 0px;
+  top: 0px; }
+
 .mysecondtup {
   width: 1000px;
   background-color: #fff;
@@ -384,6 +417,27 @@
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
+  .delivery_item {
+    margin-right: 35px; }
+
+  .delivery_item:before {
+    position: absolute;
+    content: "";
+    background: url(../img/ahdelarrow.png);
+    width: 66px;
+    height: 26px;
+    right: -75px;
+    top: -20px; }
+
+  .delitem4:before, .delitem7:before {
+    position: absolute;
+    content: "";
+    background: none;
+    width: 66px;
+    height: 26px;
+    right: -75px;
+    top: -20px; }
+
   .footspan1, .footspan2, .footspan3, .footspan4, .footspan5, .footspan6 {
     position: relative;
     background: none; }

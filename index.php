@@ -130,9 +130,11 @@
 								<div class="ab-table-row">	
 									<div class="ab-table-row-left">Подъем</div>
 									<div class="ab-table-row-right">30</div>
-								</div>	
+								</div>
+							<div class="ab-but-wrapper">		
 								<span class="ab-button-left">35 100 р</span>
-							    <span class="ab-button-right">Купить</span>
+								<span class="ab-button-right"><a href="#">Купить</a></span>
+							</div>	
 							</div>
 
 						</div>
@@ -158,9 +160,11 @@
 								<div class="ab-table-row">	
 									<div class="ab-table-row-left">Подъем</div>
 									<div class="ab-table-row-right">30</div>
-								</div>	
-								<span class="ab-button-left">35 100 р</span>
-							    <span class="ab-button-right">Купить</span>
+								</div>
+								<div class="ab-but-wrapper">	
+									<span class="ab-button-left">35 100 р</span>
+									<span class="ab-button-right"><a href="#">Купить</a></span>
+								</div>
 							</div>
 							</div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
@@ -185,9 +189,11 @@
 								<div class="ab-table-row">	
 									<div class="ab-table-row-left">Подъем</div>
 									<div class="ab-table-row-right">30</div>
-								</div>	
-								<span class="ab-button-left">35 100 р</span>
-							    <span class="ab-button-right">Купить</span>
+								</div>
+								<div class="ab-but-wrapper">	
+									<span class="ab-button-left">35 100 р</span>
+								    <span class="ab-button-right"><a href="#">Купить</a></span>
+								</div>
 							</div>
 						</div>
 							
@@ -216,8 +222,10 @@
 									<div class="ab-table-row-left">Подъем</div>
 									<div class="ab-table-row-right">30</div>
 								</div>	
-								<span class="ab-button-left">35 100 р</span>
-							    <span class="ab-button-right">Купить</span>
+								<div class="ab-but-wrapper">
+									<span class="ab-button-left">35 100 р</span>
+								    <span class="ab-button-right"><a href="#">Купить</a></span>
+								</div>
 							</div>
 
 						</div>
@@ -243,9 +251,11 @@
 								<div class="ab-table-row">	
 									<div class="ab-table-row-left">Подъем</div>
 									<div class="ab-table-row-right">30</div>
-								</div>	
-								<span class="ab-button-left">35 100 р</span>
-							    <span class="ab-button-right">Купить</span>
+								</div>
+								<div class="ab-but-wrapper">	
+									<span class="ab-button-left">35 100 р</span>
+								    <span class="ab-button-right"><a href="#">Купить</a></span>
+								</div>    
 							</div>
 							</div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
@@ -271,8 +281,10 @@
 									<div class="ab-table-row-left">Подъем</div>
 									<div class="ab-table-row-right">30</div>
 								</div>	
-								<span class="ab-button-left">35 100 р</span>
-							    <span class="ab-button-right">Купить</span>
+								<div class="ab-but-wrapper">
+									<span class="ab-button-left">35 100 р</span>
+								    <span class="ab-button-right"><a href="#">Купить</a></span>
+								</div>
 						
 						<!-- конец второго блока -->
 

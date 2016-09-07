@@ -187,12 +187,15 @@ background-color: #F1C22B;
  //margin: 0 auto;
 }
 .ab-tovar-item {
-  display: inline-block;
+  //display: inline-block;
+  //margin: 3px 60px;
+  display: block;
+  margin: 0 auto;
   padding: 10px 7px;
   text-align: center;
   width: 134px;
   height: 140px;
-  margin: 3px 60px;
+  
 }
 
 .ab-box-zagolovok{
@@ -209,6 +212,37 @@ background-color: #F1C22B;
 }
 
 /*== Сайдбар ==*/
+
+.black {
+    background: url(../img/ico1.png) no-repeat center left;
+}
+
+.red {
+    background: url(../img/ico2.png) no-repeat center left;
+}
+
+.blue {
+    background: url(../img/ico3.png) no-repeat center left;
+}
+
+.yellow {
+    background: url(../img/ico4.png) no-repeat center left;
+}
+
+.purple {
+    background: url(../img/ico5.png) no-repeat center left;
+}
+
+.malin {
+    background: url(../img/ico6.png) no-repeat center left;
+}
+
+
+
+
+.ab-side-wrapper {
+    text-align: center;
+}
 
 .ab-side-bar{
  padding-left: 60px;
@@ -227,8 +261,6 @@ background-color: #F1C22B;
   font-family: "RobotoBold";
   text-align: center;
   font-size: 16px;
-  //padding-left: 23px;
-  //display: inline-block;
   display: block;
   margin-top: 15px; 
 }
@@ -240,7 +272,6 @@ background-color: #F1C22B;
   -o-transform: skew(-14deg);
   border: 2px solid orange;
   text-align: left;
-  //margin-top: 15px; //декстоп
   margin: 10px 28px;
   display: inline-block;
 }
@@ -258,6 +289,7 @@ background-color: #F1C22B;
 }
 
 //Отдельные стили для текста в рамке
+
 .ab-textvramke-1 {
   padding: 8px 85px 5px 25px;
 }
@@ -266,49 +298,36 @@ background-color: #F1C22B;
   padding: 8px 135px 5px 25px;
 }
 
-//Иконки в сайдбаре
-.ab-link1 {
-background: url(../img/ico1.png) no-repeat 40px center;
-}
-.ab-link2 {
-background: url(../img/ico2.png) no-repeat 40px center;
-}
-.ab-link3 {
-background: url(../img/ico3.png) no-repeat 40px center;
-}
-.ab-link4 {
-background: url(../img/ico4.png) no-repeat 40px center;
-}
-.ab-link5 {
-background: url(../img/ico5.png) no-repeat 40px center;
-}
-.ab-link6 {
-background: url(../img/ico6.png) no-repeat 40px center;
-}
 
 //Цвет ссылки возле иконок в сайдбаре
+
 a{
 color:black;
 }
 
 //Общие класс для ul сайдбара
-.ab-link-span {
-padding-top: 11px;
-font-family: "RobotoRegular";
-font-size: 16px;
-//padding-left: 40px;
-//float: left;
-padding-top: 10px;
-display: inline-block;
+.ab-link {
+    width: 100%;    
+    padding-top: 11px;
+    font-family: "RobotoRegular";
+    font-size: 16px;
+    padding-top: 10px;
+    display: block;
+    text-align: center;
+        span {
+            padding-left: 35px;
+        }
+ 
+
 }
 
-.ab-links {
-  padding-top: 10px;
-  text-align: center;
-}
 
 .ab-side-banner {
-  margin: 40px auto 40px 12px;
+ width: 100%;
+  img {
+    display: block;
+    margin: 15px auto; 
+  }
 }
 
 
@@ -338,7 +357,6 @@ display: inline-block;
     display: block;
     font-family: "RobotoBold";
     font-size: 16px;
-    //margin-left: 40px;
     text-align: center;
 }
 
@@ -383,20 +401,29 @@ display: inline-block;
      border-radius: 4px;
      padding: 8px 23px;
      display: inline-block;
-     margin: 35px 5px 20px;
+     margin: 35px 1px 20px;
 }
 
 .ab-button-right {
-     background-color: #F1C22B;
-     font-family: "RobotoBold";
-     text-align: center;
-     font-size: 18px;
-     color:white; 
-     border-radius: 4px;
-     padding: 10px 28px;
+
+       a {
+             display: inline-block;
+             font-family: "RobotoBold";
+             text-align: center;
+             font-size: 18px;
+             color:white;
+             padding: 10px 28px;
+             background-color: #F1C22B;
+             border-radius: 4px;
+
+               
+       }
 }
 
-
+.ab-but-wrapper {
+ margin: 10px auto;
+ text-align: center;
+}
 
 /*== Блок с картинкой на всю ширину и 5 элементами ==*/
 
@@ -414,7 +441,6 @@ display: inline-block;
 
 .ab-ramki1-2 {
 
-    //width: 100%;
     min-height: 152px;
     background-color: rgba(255, 255, 255, 0.8);
     font-family: "RobotoRegular";
@@ -427,7 +453,7 @@ display: inline-block;
     margin-bottom: 55px;
     padding: 0px 25px;
     box-sizing: border-box;
-    //outline: 1px solid red;
+
     img{
         display: block; 
         position: absolute;
@@ -452,11 +478,6 @@ display: inline-block;
 
 }
 
-/*.ab-ramki1-2-img {
-
-   margin-top: -50px;
-}*/
-
 .ab-ramki1-2-img {
 
     display: block; 
@@ -472,136 +493,6 @@ display: inline-block;
     }
 }
 
-
-
-
-/*---------------------ТЕСТ--------------------------*/
-
-
-/*.ab-ramki{
-
-    width: 100%;
-    height: 152px;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-family: "RobotoRegular";
-    text-align: center;
-    font-size: 16px;
-    color:black;
-    display: block;
-    position: relative;
-    border-radius: 5px;
-    outline: 1px solid red;
-}
-
-.ab-box1 {
-
-    width: 100%;
-    //float: left;
-    outline: 2px solid red;
-
-}
-
-
-.ab-ramki-img{
-
-    display: block; 
-    position: absolute;
-    margin-left: 50%;
-
-    transform: translate (-50%,0);
-    width: 103px;
-    height: 103px;
-    
-    outline: 1px solid red;
-    img{
-        display: block;
-    }
-}
-
-
-.ab-ramki-img-1{
-
-    display: block; 
-    position: absolute;
-    left: 50%;
-    transform: translate (-50%,0);
-    width: 190px;
-    height: 133px;
-    background: url(../img/gruzovik.png) no-repeat top center; 
-    outline: 1px solid red;
-}
-
-.ab-ramki-img-2{
-  
-    position: absolute;
-    background: url(../img/medal.png) no-repeat top center;
-    margin-left: 50%;
-    transform: translate (-50%,0);
-    width: 190px;
-    height: 133px; 
-}
-
-.ab-ramki-img-3{
-
-    position: absolute;
-    width: 190px;
-    height: 133px;
-    background: url(../img/punkty.png) no-repeat top center;
-    margin-left: 50%;
-    transform: translate (-50%,0);
-    margin-top: -102px; 
-}
-
-.ab-ramki-img-4{
-
-    position: absolute;
-    margin-left: 50%;
-    transform: translate (-50%,0);
-    margin-top: -102px; 
-    width: 190px;
-    height: 133px;
-    background: url(../img/people.png) no-repeat top center;
-
-}
-
-.ab-ramki-img-5 {
-
-    position: absolute;
-    margin-left: 50%;
-    transform: translate (-50%,0);
-    margin-top: -102px; 
-    width: 190px;
-    height: 133px;
-    background: url(../img/vozvrat.png) no-repeat top center;
-}
-*/
-
-
-/* Записи в рамках общие 
-.ab-ramki-word {
-background-color: rgba(255, 255, 255, 0.8);
-font-family: "RobotoRegular";
-text-align: center;
-font-size: 16px;
-color:black;
-display: block;
-padding: 60px 10px;
-width: 190px;
-}*/
-
-/* Отдельный класс для последней записи 
-.ab-ramki-word {
-font-family: "RobotoRegular";
-text-align: center;
-font-size: 16px;
-color:black;
-display: inline-block;
-padding: 59px 24px;
-background-color: rgba(255, 255, 255, 0.8);
-width: 100%;
-}
-*/
-
 /*== Блок Новости со слайдом ==*/
 
 
@@ -613,7 +504,6 @@ width: 100%;
 .ab-news-bg {
    background: rgba(0, 0, 0, 0) url("../img/news-bg.png") no-repeat scroll center top / cover ;
     margin-top: -230px;
-    //margin-top: -44px;
     position: relative;
     z-index: 1;
 }
@@ -653,20 +543,6 @@ width: 100%;
 }
 
 
-/*.owl-prev {
-width: 12px;
-height: 20px;
-background: url(../img/slide-left.png) no-repeat;
-margin: -134px -23px;
-}
-
-.owl-next {
-width: 12px;
-height: 20px;
-background: url(../img/slide-right.png) no-repeat;
-margin: 113px 751px;
-}
-*/
 h2 {
   color: black;
   display: block;
@@ -691,7 +567,6 @@ text-align: left;
 font-size: 18px;
 color:black;
 display: inline-block;
-//padding-left: 20px;
 padding-left: 10px;
 }
 
@@ -704,8 +579,6 @@ padding-left: 10px;
     background-color: #da4c4c;
     color: #fff;
     display: block;
-    //margin: 21px auto;
-    //text-align: center;
     margin-left: calc(100% - 156px);
     transform: skew(-24deg);
     width: 140px;
@@ -740,7 +613,6 @@ padding-left: 10px;
     left: -14px;
     top: 145px;
     background: url(../img/ll.png) no-repeat;
-    //outline: 1px solid red; 
 }
 .next_arrs{
     position: absolute;
@@ -749,36 +621,8 @@ padding-left: 10px;
     right: -14px;
     top: 145px;
     background: url(../img/rr.png) no-repeat;
-    //outline: 1px solid red; 
 }
 
-
-
- /*#owl-example2 {
-   .owl-prev{ 
-        position: absolute;
-        width: 12px;
-        height: 20px;
-        left: -31px;
-        top: 91px;
-        background: url(../img/ll.png) no-repeat;
-  }
-}
-
-
-#owl-example2 {
-
-
-   .owl-next { 
-        position: absolute;
-        width: 12px;
-        height: 20px;
-        right: -31px;
-        top: 91px;
-        background: url(../img/rr.png) no-repeat;
-   }
- }
-*/
 
 .ab-slide-bg {
   background: rgba(0, 0, 0, 0) url("../img/full-slide-bg.png") no-repeat scroll center top;
@@ -1069,50 +913,14 @@ display: block;
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
+
   
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
-/* Сайдбар */
 
-//Иконки в сайдбаре
-.ab-link1 {
-background: url(../img/ico1.png) no-repeat center left;
-}
-.ab-link2 {
-background: url(../img/ico2.png) no-repeat center left;
-}
-.ab-link3 {
-background: url(../img/ico3.png) no-repeat center left;
-}
-.ab-link4 {
-background: url(../img/ico4.png) no-repeat center left;
-}
-.ab-link5 {
-background: url(../img/ico5.png) no-repeat center left;
-}
-.ab-link6 {
-background: url(../img/ico6.png) no-repeat center left;
-}
-
-.ab-link-span {
-    padding-left: 39px;
-}
-
-.ab-links {
-    text-align: left;
-    padding-top: 10px;
-}
-
-.ab-side-color {
-    text-align: left;
-    padding-left: 35px;
-}    
-	.ramka-wrapper{
-    text-align: center;
-  }
  h2 {
   
   padding-top: 10px;
@@ -1127,41 +935,7 @@ background: url(../img/ico6.png) no-repeat center left;
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
- /* Сайдбар */
-
-//Иконки в сайдбаре
-.ab-link1 {
-background: url(../img/ico1.png) no-repeat center left;
-}
-.ab-link2 {
-background: url(../img/ico2.png) no-repeat center left;
-}
-.ab-link3 {
-background: url(../img/ico3.png) no-repeat center left;
-}
-.ab-link4 {
-background: url(../img/ico4.png) no-repeat center left;
-}
-.ab-link5 {
-background: url(../img/ico5.png) no-repeat center left;
-}
-.ab-link6 {
-background: url(../img/ico6.png) no-repeat center left;
-}
-
-.ab-link-span {
-    padding-left: 39px;
-}
-
-.ab-links {
-    text-align: left;
-    padding-top: 10px;
-}
-
-.ab-side-color {
-    text-align: left;
-    padding-left: 35px;
-}   
+ 
   h2 {
   padding-top: 100px;
   margin: 17px auto;
@@ -1172,6 +946,20 @@ background: url(../img/ico6.png) no-repeat center left;
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
+.ab-but-wrapper {
+ margin: 10px auto;
+ text-align: center;
+}    
+
+.ab-link {
+    text-align: left;
+}
+
+.ab-side-color {
+    text-align: left;
+    margin-left: 25px;
+}
 
 /* Кнопки второго слайда */
 .prev_arrs {
@@ -1184,43 +972,7 @@ background: url(../img/ico6.png) no-repeat center left;
 }
 
 
-/* Сайдбар */
 
-//Иконки в сайдбаре
-.ab-link1 {
-background: url(../img/ico1.png) no-repeat center left;
-}
-.ab-link2 {
-background: url(../img/ico2.png) no-repeat center left;
-}
-.ab-link3 {
-background: url(../img/ico3.png) no-repeat center left;
-}
-.ab-link4 {
-background: url(../img/ico4.png) no-repeat center left;
-}
-.ab-link5 {
-background: url(../img/ico5.png) no-repeat center left;
-}
-.ab-link6 {
-background: url(../img/ico6.png) no-repeat center left;
-}
-
-.ab-link-span {
-    padding-left: 39px;
-}
-
-.ab-links {
-    text-align: left;
-    padding-top: 10px;
-}
-
-.ab-side-color {
-    text-align: left;
-    padding-left: 35px;
-}
-
-/* Конец сайдбара */
     
     .ab-ramki1-2 {
         width: 95%;
@@ -1412,7 +1164,7 @@ margin-top: 0;
 }
 
   .ab-button-left {
- margin: 35px 8px 20px;
+ //margin: 35px 8px 20px;
 }
    .contact-box {text-align: right;}
    .header-top{
@@ -1420,12 +1172,13 @@ margin-top: 0;
    }
 
 .ab-tovar-item {
+    display: inline-block;
     margin: 3px 11px;
 
 }
 
 .ab-ramka {
-    margin: 11px 15px;
+    margin: 11px -10px;
 }
 
 }

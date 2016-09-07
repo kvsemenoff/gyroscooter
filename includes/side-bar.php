@@ -11,19 +11,31 @@
 	<div class="ab-ramka">
 		<span class="ab-textvramke-2">МОДЕЛЬ</span>
 	</div>	
-</div>	
-<span class="ab-side-color">ЦВЕТ:</span>
-<div class="wrapper-links">
-	<ul class="ab-links">
-		<li class="ab-link1"><a href="#"><span class="ab-link-span">Черный</span></a></li>
-		<li class="ab-link2"><a href="#"><span class="ab-link-span">Красный</span></a></li>
-		<li class="ab-link3"><a href="#"><span class="ab-link-span">Синий</span></a></li>
-		<li class="ab-link4"><a href="#"><span class="ab-link-span">Желтый</span></a></li>
-		<li class="ab-link5"><a href="#"><span class="ab-link-span">Голубой</span></a></li>
-		<li class="ab-link6"><a href="#"><span class="ab-link-span">Малиновый</span></a></li>
-	</ul>
-</div>		
+</div>
+	<div class="ab-side-wrapper">
+		<span class="ab-side-color">ЦВЕТ:</span>
+		<div class="wrapper-links">
+			<ul class="ab-links">
+				<li class="ab-link">
+				<a href="#"><span class="black">Черный</span></a></li>
+				<li class="ab-link">
 
+				<a href="#"><span class="red">Красный</span></a></li>
+				<li class="ab-link">
+
+				<a href="#"><span class="blue">Синий</span></a></li>
+				<li class="ab-link">
+
+				<a href="#"><span class="yellow">Желтый</span></a></li>
+				<li class="ab-link">
+
+				<a href="#"><span class="purple">Голубой</span></a></li>
+				<li class="ab-link">
+
+				<a href="#"><span class="malin">Малиновый</span></a></li>
+			</ul>
+		</div>		
+	</div>
 <div class="ab-side-banner">
 	<img src="img/side-img.png" alt="">
 </div>

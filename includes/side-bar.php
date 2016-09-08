@@ -4,6 +4,7 @@
 <div class="img-side">
 	<span class="ab-side-zag">МОДЕЛЬ</span>
 </div>-->
+
 <div class="ramka-wrapper">
 	<div class="ab-ramka">
 		<span class="ab-textvramke-1">РАЗМЕР КОЛЕС</span>
